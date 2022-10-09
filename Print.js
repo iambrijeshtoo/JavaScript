@@ -12,3 +12,6 @@
 
 // # Syntax of Print
 console.log("Hello World");
+
+// Semicolon are optional in JavaScript.
+console.log("Hello World");

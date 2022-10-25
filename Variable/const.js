@@ -11,3 +11,21 @@
 
 // # How to use const?
 const pi = 3.14;
+
+// NOTE:
+// ## Const need to initialize when you declare const.
+// const pi;
+// pi = 3.14; // ERROR
+
+// ## Const can't be redeclare.
+// const pi = 3.14;
+// const pi = 3.145; // ERROR
+
+// ## Const can't be reassign.
+// const pi = 3.14;
+// pi = 3.145; // ERROR
+
+// ## Const have Block scope. 
+{
+    const pi = 3.14;
+}

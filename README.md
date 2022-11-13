@@ -16,7 +16,9 @@
    - Logical Operators
    - Conditional Operators
    - Type Operators
-7. String
-8.  String Index
-9.  String Method
-10. String Conversion
+- String
+- Undefined
+- Null
+   - String Index
+   - String Method
+   - String Conversion

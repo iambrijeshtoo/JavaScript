@@ -1,4 +1,4 @@
-// Topic: String Concatenation
+// String Concatenation
 
 // # What is String Concatenation?
 // - When we add two String together became one single string.

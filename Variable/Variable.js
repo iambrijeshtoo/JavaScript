@@ -1,4 +1,4 @@
-// Topic: Variable
+// Variable
 
 // # What is Variable?
 // - Variable is like an box.

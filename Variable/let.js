@@ -1,4 +1,4 @@
-// Topic: let
+// let Keyword
 
 // # What is let?
 // - It is keyword which you to create variable.
@@ -8,7 +8,6 @@
 // - Because when you create variable use var it can be re-create again.
 // - For some case we have to avoid creating same variable twice too avoid the confusion.
 // - That why we use let keyword to create a variable and avoid duplication.
-
 
 // # How to use let?
 // We can use same variable name again with var.

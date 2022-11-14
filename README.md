@@ -11,11 +11,11 @@
    - Operators & Operands
    - Operator Precedence
    - Arithmetic Operators
+   - Assignment Operators
    - Comparison Operators
    - Logical Operators
-   - Conditional Operators
+   - Conditional Operators (Ternary)
    - Type Operators
-   - Assignment Operators
 - String
 - Undefined
 - Null

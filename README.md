@@ -7,14 +7,16 @@
   - var Keyword
   - let Keyword
   - const Keyword
+- Datatype
+  - 
 - Operators
    - Operators & Operands
    - Operator Precedence
    - Arithmetic Operators
    - Assignment Operators
    - Comparison Operators
-   - Logical Operators
    - Conditional Operators (Ternary)
+   - Logical Operators
    - Type Operators
 - String
 - Undefined

@@ -1,4 +1,4 @@
-// Big Int
+// BigInt
 
 // # What is Big Int?
 // - It's stand for big integer.

@@ -30,3 +30,6 @@
    1. String Index
    2. String Method
    3. String Conversion
+7. Condition Statement
+   1. If & Else 
+   2. Else If

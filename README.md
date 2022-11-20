@@ -35,3 +35,6 @@
    2. Else If
    3. Nested If Else
    4. Switch
+8. Loops
+   1. For
+   2. While

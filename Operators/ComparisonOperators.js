@@ -11,4 +11,4 @@
 // > Greater than
 // < Less than
 // >= Greater than equal to
-// >= Less than equal to
+// <= Less than equal to

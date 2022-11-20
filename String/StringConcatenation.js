@@ -13,7 +13,7 @@
 
 let firstName = "Brijesh";
 let lastName = "Chavda";
-let fullName = firstName + " " + lastName;
+let fullName = firstName + " " + lastName; 
 console.log(fullName);
 
 // # NOTE:

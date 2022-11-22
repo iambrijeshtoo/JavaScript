@@ -40,3 +40,8 @@
    2. While
    3. Do While
 9. Break & Continue
+10. Array
+    1.  Accessing Array
+    2.  Adding Array
+    3.  Updating Array
+    4.  Push

@@ -10,7 +10,3 @@ const colors = ["Red", "Green", "Blue"];
 
 colors[2] = "Yellow";
 console.log(colors);
-
-// Add
-colors[3] = "Yellow";
-console.log(colors);

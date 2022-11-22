@@ -7,6 +7,5 @@
 */
 
 const colors = ["Red", "Green", "Blue"];
-
 colors[3] = "Yellow";
 console.log(colors);

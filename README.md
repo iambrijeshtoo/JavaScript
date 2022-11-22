@@ -45,3 +45,4 @@
     2.  Adding Array
     3.  Updating Array
     4.  Push
+    5.  Pop

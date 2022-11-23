@@ -51,4 +51,5 @@
     8.  Spread operator in array
     9.  For loop in array
     10. For of loop in array
-    11. While loop in array
+    11. For in loop in array 
+    12. While loop in array

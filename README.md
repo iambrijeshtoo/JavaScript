@@ -16,33 +16,39 @@
    6. Array
    7. Null
    8. Undefine
-   9. Empty Value
+   9. Empty value
 5. Operators
-   1. Operators & Operands
-   2. Operator Precedence
-   3. Arithmetic Operators
-   4. Assignment Operators
-   5. Comparison Operators
-   6. Conditional Operators (Ternary)
-   7. Logical Operators
-   8. Type Operators
+   1. Operators & operands
+   2. Operator precedence
+   3. Arithmetic operators
+   4. Assignment operators
+   5. Comparison operators
+   6. Conditional operators (Ternary)
+   7. Logical operators
+   8. Type operators
 6. String
-   1. String Index
-   2. String Method
-   3. String Conversion
-7. Condition Statement
-   1. If & Else 
-   2. Else If
-   3. Nested If Else
+   1. String index
+   2. String method
+   3. String conversion
+7. Condition statement
+   1. If & else 
+   2. Else if
+   3. Nested if else
    4. Switch
 8. Loops
    1. For
    2. While
-   3. Do While
-9. Break & Continue
+   3. Do while
+9. Break & continue
 10. Array
-    1.  Accessing Array
-    2.  Adding Array
-    3.  Updating Array
+    1.  Accessing array
+    2.  Adding array
+    3.  Updating array
     4.  Push
     5.  Pop
+    6.  Unshift
+    7.  Shift
+    8.  Spread operator in array
+    9.  For loop in array
+    10. For of loop in array
+    11. While loop in array

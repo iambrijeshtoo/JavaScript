@@ -53,3 +53,8 @@
     10. For of loop in array
     11. For in loop in array 
     12. While loop in array
+    13. Array destructure
+11. Objects
+    1.  Object iteration
+        1.  For in loop in object
+        2.  

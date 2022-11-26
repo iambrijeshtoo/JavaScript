@@ -31,7 +31,7 @@
    2. String method
    3. String conversion
 7. Condition statement
-   1. If & else 
+   1. If & else
    2. Else if
    3. Nested if else
    4. Switch
@@ -41,20 +41,20 @@
    3. Do while
 9. Break & continue
 10. Array
-    1.  Accessing array
-    2.  Adding array
-    3.  Updating array
-    4.  Push
-    5.  Pop
-    6.  Unshift
-    7.  Shift
-    8.  Spread operator in array
-    9.  For loop in array
+    1. Accessing array
+    2. Adding array
+    3. Updating array
+    4. Push
+    5. Pop
+    6. Unshift
+    7. Shift
+    8. Spread operator in array
+    9. For loop in array
     10. For of loop in array
-    11. For in loop in array 
+    11. For in loop in array
     12. While loop in array
     13. Array destructure
 11. Objects
-    1.  Object iteration
-        1.  For in loop in object
-        2.  
+    1. Object iteration
+    2. Object computed properties
+    3. Object destructure

@@ -1,4 +1,4 @@
-// Iterate object
+// Object Iteration
 
 const object = {
   key1: "Value1",

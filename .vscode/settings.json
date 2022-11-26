@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["Chavda", "Eich"]
+  "cSpell.words": ["Chavda", "Eich"],
+  "editor.tokenColorCustomizations": {
+    "comments": "",
+    "textMateRules": []
+  }
 }

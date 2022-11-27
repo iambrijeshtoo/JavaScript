@@ -64,3 +64,5 @@
     3. Arrow function
     4. Function hoisting
     5. Function lexical scope
+    6. Function scope vs block scope
+    7. 

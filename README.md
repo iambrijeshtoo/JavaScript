@@ -58,3 +58,9 @@
     1. Object iteration
     2. Object computed properties
     3. Object destructure
+12. Function
+    1. Function inside function
+    2. Function expression
+    3. Arrow function
+    4. Function hoisting
+    5. Function lexical scope

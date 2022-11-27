@@ -68,3 +68,5 @@
     7. Default parameter
     8. Rest parameter
     9. Parameter destructuring 
+    10. Callback function
+    11. Function returning function

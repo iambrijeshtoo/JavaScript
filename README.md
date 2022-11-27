@@ -65,4 +65,6 @@
     4. Function hoisting
     5. Function lexical scope
     6. Function scope vs block scope
-    7. 
+    7. Default parameter
+    8. Rest parameter
+    9. Parameter destructuring 

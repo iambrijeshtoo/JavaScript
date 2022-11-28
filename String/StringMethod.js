@@ -1,25 +1,15 @@
-// Topic: String Method
+// String Method
 
-// # trim
-var name = "   Brijesh   " 
+let studentName = "   Batman   ";
 
-// NOTE:
-// - Don't use String method like this.
-// - You need to first save that variable.method(); in to variable then use it.
-// name.trim();
-// console.log(name);
+studentName = studentName.trim();
+console.log(studentName);
 
-name = name.trim();
-console.log(name);
+studentName = studentName.toUpperCase();
+console.log(studentName);
 
-// # toUpperCase
-name = name.toUpperCase();
-console.log(name);
+studentName = studentName.toLowerCase();
+console.log(studentName);
 
-// # toLowerCase
-name = name.toLowerCase();
-console.log(name);
-
-// # slice
-name = name.slice(1,5);
-console.log(name);
+studentName = studentName.slice(1, 5);
+console.log(studentName);

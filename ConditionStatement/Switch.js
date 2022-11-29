@@ -1,25 +1,5 @@
 // Switch
 
-/* 
-    # What is Switch?
-    - The switch statement is used to perform different actions based on different conditions.
-
-    # Syntax:
-    switch(condition){
-        case x:
-            Code...
-        break;
-        case y:
-            Code...
-         break;
-        case z:
-            Code...
-        break;
-        default:
-            Code...
-    }
-*/
-
 let day = 10;
 switch (day) {
   case 1:

@@ -1,29 +1,27 @@
-// Array destructure
+// students destructure
 
-const array = ["Item1", "Item2", "Item3"];
-
-// # How to store one array element in one single variable?
+const students = ["Student1", "Student2", "Student3"];
 
 // Dry syntax
-let variable1 = array[0];
-let variable2 = array[1];
-let variable3 = array[2];
-console.log(variable1);
-console.log(variable2);
-console.log(variable3);
+let student1 = students[0];
+let student2 = students[1];
+let student3 = students[2];
+console.log(student1);
+console.log(student2);
+console.log(student3);
 
 // Better syntax
-let [variable4, variable5, variable6] = array;
-console.log(variable4);
-console.log(variable5);
-console.log(variable6);
+let [student4, student5, student6] = students;
+console.log(student4);
+console.log(student5);
+console.log(student6);
 
-// # How to store one array element in one single variable and create new array using the element left inside the old array?
-let [variable7, ...newArray] = array;
-console.log(variable7);
-console.log(newArray);
+// Store element in variable and create new array using remaining elements
+let [student7, ...newStudents] = students;
+console.log(student7);
+console.log(newStudents);
 
-// # How to skip array's element value when you storing in variable?
-let [variable8, , variable9] = array;
-console.log(variable8);
-console.log(variable9);
+// Skip element value when store array elements inside variables.
+let [student8, , student9] = students;
+console.log(student8);
+console.log(student9);

@@ -1,25 +1,21 @@
-/* 
-    !NOTE:
-    - array > for in > index
-    - objects > for in > key
-*/
+// For in loop
 
-// Array
-const arr = ["a", "b", "c"];
+// Array > for in > index
+const students = ["Batman", "Superman", "Flash"];
 
-for (const i in arr) {
+for (const i in students) {
   console.log(i);
-  console.log(arr[i]);
+  console.log(students[i]);
 }
 
-// Objects
-const obj = {
-  k1: "v1",
-  k2: "v2",
-  k3: "v3",
+// Objects > for in > key
+const studentDetails = {
+  studentName: "Batman",
+  rollNumber: 10,
+  division: "Justice League",
 };
 
-for (const i in obj) {
+for (const i in studentDetails) {
   console.log(i);
-  console.log(obj[i]);
+  console.log(studentDetails[i]);
 }

@@ -1,21 +1,5 @@
 // Objects
 
-/* 
-    # What is Objects?
-    - It's same just like array you can store data inside it.
-    - But in key and value format.
-
-    !Note:
-    - Objects doesn't have index.
-
-    # Syntax:
-    datatype objectName = {
-        key : value,
-        key : value,
-        key : value,
-    }
-*/
-
 const object = {
   key1: "Value1",
   key2: "Value2",

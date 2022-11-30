@@ -1,16 +1,8 @@
 // Accessing Array
 
-/* 
-    # Syntax
-    datatype arrayName = [Item1,Item2, Item3];
-    datatype variableName = arrayName[IndexNumber];
-*/
+const students = ["Batman", "Superman", "Flash"];
 
-const colors = ["Red", "Green", "Blue"];
+console.log(students[1]);
 
-// Access array storing index value inside an variable then print variable.
-let color = colors[0];
-console.log(color);
-
-// Directly print the index value.
-console.log(colors[1]);
+let student = students[0];
+console.log(student);

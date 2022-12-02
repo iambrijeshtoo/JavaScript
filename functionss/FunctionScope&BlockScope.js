@@ -1,45 +1,31 @@
 // Function Scope VS BlockScope
 
-/* 
-    # What is block scope?
-    - Let just start with what is block?
-    {
-        BLOCK 1
-    }
-    {
-        BLOCK 2
-    }
-    - Which ever written inside the "{ }" is known as block.
-    - Let and const are block scope.
-    - Var is function scope.
-*/
+// let and const are block scope
+// var is function scope
 
-/*
-    # Let block scope
-    - You can't access the name variable outside the if condition block.
-*/
-if (true) {
-  let name = "Batman";
-  console.log(name);
+function greet1() {
+  if (true) {
+    let name = "Batman";
+    console.log(name);
+  }
+  // return console.log(name);
 }
-// console.log(name); // ERROR
+greet1();
 
-/* 
-    # Const block scope
-    - You can't access the name variable outside the if condition block.
-*/
-if (true) {
-  const name = "Superman";
-  console.log(name);
+function greet2() {
+  if (true) {
+    const name = "Batman";
+    console.log(name);
+  }
+  // return console.log(name);
 }
-// console.log(name); // ERROR
+greet2();
 
-/* 
-    # Var function scope
-    - You can access the name variable any where.
-*/
-function greet() {
-  var name = "Flash";
+function greet3() {
+  if (true) {
+    var name = "Flash";
+    console.log(name);
+  }
   return console.log(name);
 }
-console.log(name);
+greet3();

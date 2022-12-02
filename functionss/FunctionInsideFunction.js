@@ -1,21 +1,11 @@
 // Function Inside Function
 
-function parent() {
-  // Default function
-  function add(num1, num2) {
-    return num1 + num2;
+function math() {
+  function sum(number1, number2) {
+    let answer = number1 + number2;
+    return answer;
   }
-
-  // Function expression
-  const div = function (num1, num2) {
-    return num1 / num2;
-  };
-
-  // Arrow function
-  const sub = (num1, num2) => {
-    return num1 - num2;
-  };
-
-  // Arrow function in one line
-  const mul = (num1, num2) => num1 * num2;
+  console.log(sum(1, 2));
 }
+
+math();

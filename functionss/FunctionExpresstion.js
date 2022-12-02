@@ -1,18 +1,9 @@
 // Function Expression
 
-/* 
-    # What is function expression?
-    - Storing function inside the variable.
-*/
-
-const greetings = function () {
-  console.log("Hello, World!");
-};
-greetings();
-
-const addTwoNumbers = function (number1, number2) {
+// Storing function inside the variable known as a function expression.
+const sumOfTwoNumbers = function (number1, number2) {
   return number1 + number2;
 };
 
-const answer = addTwoNumbers(1, 2);
-console.log(answer);
+const answer = sumOfTwoNumbers(1, 2);
+console.log(typeof answer);

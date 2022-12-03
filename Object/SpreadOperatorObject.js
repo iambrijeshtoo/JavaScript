@@ -24,6 +24,7 @@ const object2 = {
 // Add both objects into the one new object
 const object3 = { ...object1, ...object2 };
 console.log(object3);
+
 // Add both objects into the one new object and key value pair
 const object4 = { ...object1, ...object2, key7: "value7" };
 

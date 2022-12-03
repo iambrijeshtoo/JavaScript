@@ -5,11 +5,10 @@ const greet = () => {
   console.log("Hello, World!");
 };
 
-// For single parameter to pass in function you can remove small bracket.
-const greetWithCustomName = (name) => {
+// For single parameter remove small bracket
+const greet1 = (name) => {
   return console.log(`Hello ${name}`);
 };
 
-// When function returns something in single line remove return keyword.
-const greetWithStudentName = (studentName) =>
-  console.log(`Hello ${studentName}`);
+// If function return in single line remove return keyword
+const greet2 = (studentName) => console.log(`Hello ${studentName}`);

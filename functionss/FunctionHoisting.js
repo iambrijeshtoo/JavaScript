@@ -1,6 +1,6 @@
 // Function Hoisting
 
-// Calling function above the function declare known as function hoisting.
+// Calling function above the function is declare
 greet();
 
 function greet() {

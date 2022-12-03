@@ -1,13 +1,13 @@
 // Rest Parameter
 
 // Using spread operator in parameter we can store more than one argument as array.
-function studentName(student1, student2, ...student3) {
-  console.log(student1);
-  console.log(student2);
-  console.log(student3);
+function father(parameter1, parameter2, ...parameter3) {
+  console.log(parameter1);
+  console.log(parameter2);
+  console.log(parameter3);
   return;
 }
-studentName("Batman", "Superman", "Flash", "Black adam");
+father("value1", "value2", "value3", "value4");
 
 function sum(...numbers) {
   let total = 0;

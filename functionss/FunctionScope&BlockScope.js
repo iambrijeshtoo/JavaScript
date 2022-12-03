@@ -1,11 +1,9 @@
 // Function Scope VS BlockScope
 
 // let and const are block scope
-// var is function scope
-
 function greet1() {
   if (true) {
-    let name = "Batman";
+    let name = "Human";
     console.log(name);
   }
   // return console.log(name);
@@ -14,16 +12,17 @@ greet1();
 
 function greet2() {
   if (true) {
-    const name = "Batman";
+    const name = "Human";
     console.log(name);
   }
   // return console.log(name);
 }
 greet2();
 
+// var is function scope
 function greet3() {
   if (true) {
-    var name = "Flash";
+    var name = "Human";
     console.log(name);
   }
   return console.log(name);

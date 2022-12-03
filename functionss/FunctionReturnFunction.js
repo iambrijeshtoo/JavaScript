@@ -1,10 +1,10 @@
 // Function Returning Function
 
-function parent() {
-  return function child(childName) {
+function father() {
+  return function son(childName) {
     return console.log(`I am ${childName}`);
   };
 }
 
-const variable = parent();
-variable("Child");
+const variable = father();
+variable("Child function");

@@ -1,28 +1,28 @@
 // Loops in arrays
 
-const students = ["Student1", "Student2", "Student3"];
+const array = ["value1", "value2", "value3"];
 
 // For loop
-for (let i = 0; i < students.length; i++) {
-  const element = students[i];
+for (let i = 0; i < array.length; i++) {
+  const element = array[i];
   console.log(element);
 }
 
 // While loop
 let i = 0;
-while (i < students.length) {
-  const student = students[i];
-  console.log(student);
+while (i < array.length) {
+  const element = array[i];
+  console.log(element);
   i++;
 }
 
 // For in loop
-for (const i in students) {
-  const student = students[i];
-  console.log(student);
+for (const i in array) {
+  const element = array[i];
+  console.log(element);
 }
 
 // For of loop
-for (const student of students) {
-  console.log(student);
+for (const element of array) {
+  console.log(element);
 }

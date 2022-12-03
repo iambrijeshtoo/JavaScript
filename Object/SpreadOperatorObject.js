@@ -4,31 +4,32 @@ const object1 = {
   key1: "value1",
   key2: "value2",
   key3: "value3",
+  sameKey: "sameValue1",
 };
 
 const object2 = {
   key4: "value4",
   key5: "value5",
   key6: "value6",
+  sameKey: "sameValue2",
 };
-
-// const object3 = { ...object1, ...object2 };
-const object3 = { ...object1, ...object2, key7: "value7" };
-console.log(object3);
 
 /* 
     !NOTE:
-    - Suppose there is two object which you have to combine.
-    - Using spread operator you can combine both of them.
-    - But what if they both have same key inside it and values are different.
-    - When combine this type of objects together what will happen that last object in line of combine.
-    - It's key value will get update.
-
-    # Convert array into the object
-    - When you add array into the object at that time arrays element will be convert into the value and the index will became the key for that element.
+    - When both objects has same key but values are different and you combine them together to make one object.
+    - At that time even if the keys are same but value will be consider(taken) from the only last object.
+    - Because even though both have same key but latest update value will be considered from the last object.    
 */
+
+// Add both objects into the one new object
+const object3 = { ...object1, ...object2 };
+console.log(object3);
+// Add both objects into the one new object and key value pair
+const object4 = { ...object1, ...object2, key7: "value7" };
+
+// When array is added into the object at that time array index will be key and element will be value
 const array = [1, 2, 3];
-const object4 = {
+const object5 = {
   ...array,
 };
-console.log(object4);
+console.log(object5);

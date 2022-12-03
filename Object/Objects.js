@@ -1,34 +1,27 @@
 // Objects
 
 const object = {
-  key1: "Value1",
-  key2: "Value2",
-  key3: "Value3",
+  key1: "value1",
+  key2: "value2",
+  key3: "value3",
 };
 console.log(object);
 
-// # How to access data from object?
+// Accessing values from the object
 console.log(object.key1);
 console.log(object.key2);
 console.log(object.key3);
 
-// # How to add key and value pair in object?
-
-/* 
-  !Note:
-  - When your key name has space between for e.g. Full Name at that time you can't you dot operator.
-  - You need to use bracket operator to store key inside the object.
-*/
-
-// ## Using dot operator
-object.key4 = "Value4";
+// Adding key and value pair in object
+// Using dot operator
+object.key4 = "value4";
 console.log(object);
 
-// ## Using
-object["key5"] = "Value5";
+// Using bracket (When your key name has whitespace)
+object["key5"] = "value5";
 console.log(object);
 
-// # How to access key name from the variable?
+// Accessing key name from the variable
 const keyName = "key6";
-object[keyName] = "Value6";
+object[keyName] = "value6";
 console.log(object);

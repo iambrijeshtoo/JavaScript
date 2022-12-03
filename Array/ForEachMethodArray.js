@@ -24,3 +24,23 @@ array.forEach(function (element) {
 array.forEach((element) => {
   console.log(element);
 });
+
+// Example
+const array1 = [
+  {
+    key1: "value1",
+    key2: "value2",
+    key3: "value3",
+    sameKey: "same value",
+  },
+  {
+    key4: "value4",
+    key5: "value5",
+    key6: "value6",
+    sameKey: "same value",
+  },
+];
+
+array1.forEach((object) => {
+  console.log(object.sameKey);
+});

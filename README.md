@@ -53,6 +53,7 @@
   - For loop in array
   - For of loop in array
   - For in loop in array
+  - For each method in array
   - While loop in array
   - Array destructure
 - Objects

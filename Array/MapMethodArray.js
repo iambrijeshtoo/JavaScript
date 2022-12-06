@@ -2,8 +2,8 @@
 
 const array = [1, 2, 3];
 
-const variable = function (number) {
-  return number * number;
+const variable = function (element) {
+  return element * element;
 };
 
 /* 
@@ -17,8 +17,8 @@ const newArray = array.map(variable);
 console.log(newArray);
 
 // Using arrow function
-const newArray2 = array.map((number) => {
-  return number * number;
+const newArray2 = array.map((element) => {
+  return element * element;
 });
 console.log(newArray2);
 

@@ -56,6 +56,7 @@
   - For each method in array
   - While loop in array
   - Array destructure
+  - forEach method in array
 - Objects
   - Object iteration
   - Object computed properties

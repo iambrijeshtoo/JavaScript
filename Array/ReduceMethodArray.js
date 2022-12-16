@@ -1,0 +1,1 @@
+// Reduce method in array

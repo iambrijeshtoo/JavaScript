@@ -1,5 +1,7 @@
 // Function Inside Function
 
+let name = "abc";
+
 function father() {
   function son(number1, number2) {
     let answer = number1 + number2;

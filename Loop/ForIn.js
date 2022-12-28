@@ -3,6 +3,7 @@
 // Array > for in > index
 const students = ["Batman", "Superman", "Flash"];
 
+
 for (const i in students) {
   console.log(i);
   console.log(students[i]);

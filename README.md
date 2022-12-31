@@ -56,7 +56,11 @@
   - For each method in array
   - While loop in array
   - Array destructure
-  - forEach method in array
+  - Array's methods
+    - forEach method 
+    - Map method 
+    - Reduce method 
+    - Sort method 
 - Objects
   - Object iteration
   - Object computed properties

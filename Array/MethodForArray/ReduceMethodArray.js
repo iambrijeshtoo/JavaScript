@@ -16,13 +16,36 @@
 */
 
 const array = [1, 2, 3, 4, 5];
-
 const total = array.reduce(
   (accumulator, currentValue) => accumulator + currentValue,
   0
 );
-
 console.log(total);
+
+// Example
+const cart = [
+  {
+    productID: 1,
+    productName: "Phone",
+    price: 10000,
+  },
+  {
+    productID: 2,
+    productName: "Tablet",
+    price: 15000,
+  },
+  {
+    productID: 1,
+    productName: "Laptop",
+    price: 30000,
+  },
+];
+
+const totalPrice = cart.reduce(
+  (totalPrice, item) => totalPrice + item.price,
+  0
+);
+console.log(totalPrice);
 
 /*
   # NOTE:

@@ -57,10 +57,15 @@
   - While loop in array
   - Array destructure
   - Array's methods
-    - forEach method 
-    - Map method 
-    - Reduce method 
-    - Sort method 
+    - forEach method
+    - Map method
+    - Reduce method
+    - Sort method
+    - Find method
+    - Every method
+    - Some methods
+    - Fill method
+    - Splice method
 - Objects
   - Object iteration
   - Object computed properties

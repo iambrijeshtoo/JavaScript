@@ -17,12 +17,12 @@
 // Syntax
 // String
 const studentName = "Batman";
-for(character of studentName){
-    console.log(character);
+for (character of studentName) {
+  console.log(character);
 }
 
 // Array
-const rollNumbers = [1,2,3,4,5];
-for (number of rollNumbers){
-    console.log(number);
+const rollNumbers = [1, 2, 3, 4, 5];
+for (rollNumber of rollNumbers) {
+  console.log(rollNumber);
 }

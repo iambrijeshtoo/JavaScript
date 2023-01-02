@@ -16,16 +16,16 @@
 */
 
 // Syntax
-// Create set using array
+// Direct passing value
 const rollNumber = new Set([1, 2, 3, 4, 5]);
 console.log(rollNumber);
 
-// Create set using string
 const studentName = new Set("Batman");
 console.log(studentName);
 
-// Add();
+// Using constructor
 const studentNames = new Set();
+// Add();
 studentNames.add("Batman");
 studentNames.add("Superman");
 studentNames.add("Flash");

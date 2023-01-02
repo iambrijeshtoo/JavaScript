@@ -6,16 +6,16 @@
 
     # How to use splice(); method?
     ## Delete
-    -> (starting index, delete)
-    -> You need to provide the starting index number.
-    -> Then how many elements do you want to delete number.
-    -> You leave the insert value.
+    - (starting index, delete)
+    - You need to provide the starting index number.
+    - Then how many elements do you want to delete number.
+    - You leave the insert value.
 
     ## Insert
-    -> (starting index, delete, insert custom value)
-    -> You need to provide the starting index number.
-    -> You need to provide 0 as delete number.
-    -> Add custom value which you want insert.
+    - (starting index, delete, insert custom value)
+    - You need to provide the starting index number.
+    - You need to provide 0 as delete number.
+    - Add custom value which you want insert.
 
     ## Insert
 */

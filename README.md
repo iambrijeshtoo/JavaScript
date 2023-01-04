@@ -71,6 +71,7 @@
   - Object computed properties
   - Object destructure
   - Object cloning
+  - Optional chaining
 - Function
   - Function inside function
   - Function expression
@@ -83,3 +84,6 @@
   - Parameter destructuring
   - Callback function
   - Function returning function
+- Method
+- this keyword
+- Window object

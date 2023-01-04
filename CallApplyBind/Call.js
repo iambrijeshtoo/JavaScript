@@ -17,7 +17,7 @@ const object1 = {
   name2: "Value2",
   name3: "Value3",
   // We can also write this function outside the object and it work same.
-  usingCall: function (objectName) {
+  usingApply: function (objectName) {
     console.log(this.name1);
     console.log(objectName);
     console.log("Hello, World!");
@@ -31,5 +31,5 @@ const object2 = {
 };
 
 // object1.usingCall.call(); === object1.usingCall();
-object1.usingCall.call(object1, "I am object1"); // (objectName for this, argument)
-object1.usingCall.call(object2, "I am object2"); // Calling object 1 method for object 2
+object1.usingApply.call(object1, "I am object1"); // (objectName for this, argument)
+object1.usingApply.call(object2, "I am object2"); // Calling object 1 method for object 2

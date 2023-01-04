@@ -9,7 +9,7 @@
     - Internally apply is using call.
 */
 
-function usingApply(objectName) {
+function usingBind(objectName) {
   console.log(this.name1);
   console.log(objectName);
   console.log("Hello, World!");
@@ -28,5 +28,5 @@ const object2 = {
 };
 
 // usingApply.call(); === usingApply();
-usingApply.call(object1, ["I am object1"]); // (objectName for this, argument)
-usingApply.call(object2, ["I am object2"]); // Calling object 1 method for object 2
+usingBind.call(object1, ["I am object1"]); // (objectName for this, argument)
+usingBind.call(object2, ["I am object2"]); 

@@ -1,20 +1,59 @@
-// This is theme test
+// Single line comment
+
+/* 
+  Multiline 
+  comment
+*/
 
 // Variable
-var name = "Student";
-let division = "A1";
-const rollNumber = 123;
+var myVar = "Var";
+let myLet = "Let";
+const myConst = "Const";
+
+// Datatype
+let myInteger = 100;
+let myFloat = 10.0;
+let myString = "Hello, world!";
+let myCharacter = "@";
 
 // Array
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const array1 = ["1, 2, 3, 4, 5, 6, 7, 8, 9"];
+let arrayNumbers = [1, 2, 3];
+const arrayStrings = ["element1", "element2", "element3"];
 
-// 
+// Object
+const myObject = {
+  name1: "value1",
+  name2: "value2",
+  name3: "value3",
+};
 
-class Student {
-  constructor(name) {}
+// Set
+const mySet = new Set([1, 2, 3]);
+
+// Map
+const myMap = new Map([
+  ["key1", "value1"],
+  ["key2", "value2"],
+  ["key3", "value3"],
+]);
+
+// Function
+function myFunction(parameter1, parameter2) {
+  parameter1 = this.parameter1;
+  parameter2 = this.parameter2;
 }
 
-function greetStudent(rollNumber, name) {
-  rollNumber = this.rollNumber;
+// Arrow Function
+const myArrowFunction = (parameter) => console.log(parameter);
+
+// Class
+class MyClass {
+  // console.log("Hello, World!");
+}
+
+// Constructor
+class MyClass {
+  constructor(name) {
+    console.log("Hello, World!");
+  }
 }

@@ -55,3 +55,5 @@ console.log(student2.rollNumber);
 console.log(student2.division);
 console.log(student2.result);
 console.log(student2.attendance());
+
+

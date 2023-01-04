@@ -70,6 +70,7 @@
   - Object iteration
   - Object computed properties
   - Object destructure
+  - Object cloning
 - Function
   - Function inside function
   - Function expression

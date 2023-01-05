@@ -3,7 +3,7 @@
 /* 
     Note
     - this keyword actually represents the current object. But this true for normal functions.
-    - For arrow functions it will be one level upper object meaning it will point to the one level upper object.
+    - For arrow functions this will point to the one level upper object.
 */
 
 const object = {

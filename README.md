@@ -87,3 +87,7 @@
 - Method
 - this keyword
 - Window object
+- Call
+- Apply
+- Bind
+- 

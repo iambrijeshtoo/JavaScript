@@ -5,7 +5,7 @@
     - It works same as call but it will return function.
 
     # Note
-    - You need to store bind(); in variable in order to access it.
+    - You need to store bind(); in variable and call in order to access it.
 */
 
 function usingBind(objectName) {

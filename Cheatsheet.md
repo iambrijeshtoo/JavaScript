@@ -36,3 +36,11 @@
 | It can have string and number as a name. | It can have string, number, array, object, function anything as key. |
 | It store data in "name : value" form.    | It store data in "key : value" form.                                 |
 | e.g. {name : "value"}                    | e.g. [["key", "value"]]                                              |
+
+# Terminology
+
+property:
+attribute:
+item:
+value:
+element:

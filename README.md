@@ -5,7 +5,7 @@
   - Single quote
   - Double quote
 - Output
-  - Print
+  - console.log
 - Variable
   - var Keyword
   - let Keyword

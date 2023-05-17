@@ -1,4 +1,4 @@
-// Else If
+// Else Condition Statement
 
 let bat = true;
 let ball = false;

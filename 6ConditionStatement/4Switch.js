@@ -1,4 +1,4 @@
-// Switch
+// Switch Condition Statement
 
 let day = 10;
 switch (day) {

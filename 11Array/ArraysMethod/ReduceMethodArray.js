@@ -1,19 +1,16 @@
-// Reduce method in array
+// Reduce Method In Array
 
-/*
-  # What is reduce method?
-  -> Before understanding the "reduce method" you need to understand what "reduce" word means. It means that something that can be shorten or smaller.
+// Q.What is reduce method?
+// - Before understanding the "reduce method" you need to understand what "reduce" word means. It means that something that can be shorten or smaller.
 
-  # Why use reduce method?
-  -> When you use reduce method on array it will give you back the sum of the all the elements inside the array.
+// Q.Why use reduce method?
+// - When you use reduce method on array it will give you back the sum of the all the elements inside the array
 
-  # How to use reduce method?
-  -> It's take callback function as parameter and default value.
+// Q.How to use reduce method?
+//  It's take callback function as parameter and default value
 
-  ## Syntax:
-
-  array.reduce(()=>{}, defaultValue);
-*/
+// SYNTAX
+// array.reduce(() => {}, defaultValue);
 
 const array = [1, 2, 3, 4, 5];
 const total = array.reduce(
@@ -22,7 +19,7 @@ const total = array.reduce(
 );
 console.log(total);
 
-// Example
+// EXAMPLE
 const cart = [
   {
     productID: 1,

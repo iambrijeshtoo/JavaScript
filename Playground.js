@@ -1,5 +1,2 @@
+let a = prompt("Enter a num: ")
 console.log(a);
-var a = "a";
-
-console.log(b);
-let b = "b"

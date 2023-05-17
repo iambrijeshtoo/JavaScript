@@ -1,17 +1,16 @@
-// Map method in array
+// Map Method In Array
 
-const array = [1, 2, 3];
+// NOTE
+// - map() method return new array
+// - map() method take callback function as a parameter
+// - When you pass a callback function as a parameter in map() method make sure it has return value.
 
+const array = [1, 2, 3, 4, 5];
+
+// Using function
 const variable = function (element) {
   return element * element;
 };
-
-/* 
-    NOTE:
-    - map() method return new array
-    - map() method take callback function as a parameter 
-    - When you pass a callback function as a parameter in map() method make sure it has return value.
-*/
 
 const newArray = array.map(variable);
 console.log(newArray);
@@ -22,7 +21,7 @@ const newArray2 = array.map((element) => {
 });
 console.log(newArray2);
 
-// Example
+// EXAMPLE
 const array1 = [
   {
     key1: "value1",

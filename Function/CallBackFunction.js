@@ -1,13 +1,12 @@
-/* ---------------------------- Callback Function --------------------------- */
+// Callback Function
 
-// Function take other function as a parameter
-function son(sonName) {
-  console.log(`I am ${sonName}`);
+function greet(name, callback) {
+  console.log("Hello, " + name + "!");
+  callback();
 }
 
-function father(callback) {
-  console.log(`I am father function`);
-  callback("son function");
+function sayGoodbye() {
+  console.log("Goodbye!");
 }
 
-father(son);
+greet("Alice", sayGoodbye);

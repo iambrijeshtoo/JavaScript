@@ -1,17 +1,15 @@
-// Topic: some(); method
+// Some Method
 
-/*
-    # What is some(); method?
-    - It will take call back function as parameter.
-    - It checks all the element in the array if one single element meet the condition it will return true. If not it will return false.
-*/
+// Q.What is some method?
+// - It will take call back function as parameter.
+// - It checks all the element in the array if one single element meet the condition it will return true. If not it will return false.
 
-// Syntax:
+// SYNTAX
 const array = [2, 3, 4, 5, 6];
 const answer = array.some((element) => element % 2 === 0);
 console.log(answer);
 
-// Example: Find out which item in cart is less than 2000.
+// EXAMPLE: Find out which item in cart is less than 2000.
 const cart = [
   {
     id: 1,

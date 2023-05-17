@@ -25,8 +25,8 @@ console.log(object_3);
 const object_4 = { ...object_1, ...object_2, name_7: "value_7" };
 
 // When array is added into the object at that time array index will be name and element will be value
-const array = [1, 2, 3];
+const arr = [1, 2, 3];
 const object_5 = {
-  ...array,
+  ...arr,
 };
 console.log(object_5);

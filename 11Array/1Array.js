@@ -1,12 +1,13 @@
-/* ---------------------------------- ARRAY --------------------------------- */
+// Array
+
 // Q.What is array?
 // - It is the collection of elements (values).
 
-// [NOTE]
+// NOTE
 // - It the common practice to create array with `const`.
 // - Array can store different type of value in it.
 
-// [Syntax]
+// Syntax
 // const array_name = [element1, element2, element3];
 
 // Default way creating array.

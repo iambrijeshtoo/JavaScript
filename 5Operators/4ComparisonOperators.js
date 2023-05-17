@@ -13,6 +13,6 @@
 // - In JavaScript when you compare string and number it will treat string as number.
 let var1 = "10";
 let var2 = 10;
-let var3 = var1 == var2;
+let var3 = num == var2;
 
 console.log(var3);

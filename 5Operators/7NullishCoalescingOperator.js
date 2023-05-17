@@ -7,4 +7,4 @@
 // variable_name = null/ undefine ?? default_value;
 
 let var1 = null ?? "default value";
-console.log(var1);
+console.log(num);

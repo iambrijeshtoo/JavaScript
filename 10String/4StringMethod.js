@@ -1,3 +1,5 @@
+// String Method
+
 let str = "Hello, World!";
 
 // .length
@@ -11,3 +13,6 @@ console.log(str.slice(-1, -5));
 
 // substring(start, end);
 console.log(str.substring(1, 5));
+
+
+// TODO: Find out more string method

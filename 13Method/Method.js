@@ -1,10 +1,8 @@
 // Method: Method
 
-/*
-    # What is method?
-    - When you write function inside object it is known as method.
-    - When you write function inside class it is known as method.
-*/
+// Q.What is method?
+// - When you write function inside object it is known as method.
+// - When you write function inside class it is known as method.
 
 const object1 = {
   name1: "Value1",

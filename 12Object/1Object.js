@@ -1,4 +1,4 @@
-/* --------------------------------- Object -------------------------------- */
+// Object
 
 // Q. What is Object?
 // - Object is variable too. But it store more than one value. It store values in "name : value" pair. In object you can store numbers, strings, boolean values, variables, array, function and nested objects also.
@@ -9,11 +9,11 @@
 // - Primitive value are immutable.
 // - e.g. string, number, boolean, null, undefined, symbol, BigInt.
 
-// [NOTE]
+// NOTE
 // - It is common practice to declare objects with const.
 // - Object are mutable they are address by the reference not by value.
 
-// [Syntax]
+// SYNTAX
 // const object = {
 //  name1: "value1",
 //  name2: "value2",
@@ -21,29 +21,29 @@
 // };
 
 // Creating object using object literal
-const object = {
-  string: "Student1",
-  number: 1,
+const mainObject = {
+  string: "Hello, World!",
+  number: 123,
   boolean: true,
-  array: ["Math", "Science", "English"],
+  array: [1, 2, 3, 4, 5],
   object: {
-    name_1: "value_1",
-    name_2: "value_2",
-    name_3: "value_3",
+    name1: "value1",
+    name2: "value2",
+    name3: "value3",
   },
-  function_: function () {
+  function1: function () {
     console.log("Hello, World!");
   },
 };
 
 // Creating empty object add name : value
-const object_1 = {};
-object_1.name_1 = "value_1";
-object_1.name_2 = "value_2";
-object_1.name_3 = "value_3";
+const object1 = {};
+object1.name1 = "value1";
+object1.name2 = "value2";
+object1.name3 = "value3";
 
 // Creating object using constructor (Not Recommended)
-const object_2 = new Object();
-object_2.name_1 = "value_1";
-object_2.name_2 = "value_2";
-object_2.name_3 = "value_3";
+const object2 = new Object();
+object2.name1 = "value1";
+object2.name2 = "value2";
+object2.name3 = "value3";

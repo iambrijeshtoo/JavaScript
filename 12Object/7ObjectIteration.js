@@ -1,9 +1,9 @@
-/* --------------------------- Object Iteration -------------------------- */
+// Object Iteration
 
 const object = {
-  name_1: "value_1",
-  name_2: "value_2",
-  name_3: "value_3",
+  name1: "value1",
+  name2: "value2",
+  name3: "value3",
 };
 
 // For in loop (Recommended)

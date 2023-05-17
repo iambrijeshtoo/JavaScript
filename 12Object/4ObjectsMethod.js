@@ -1,18 +1,18 @@
-/* ------------------------------ Object Method ----------------------------- */
+// Object Method
 
 // Q. What is object method?
 // - When have function inside the object it known as method.
 
-const object = {
-  function_1: function () {
+const mainObject = {
+  function1: function () {
     console.log("Hello, World!");
   },
 };
 
 // Accessing method
-console.log(object.function_1());
+console.log(mainObject.function1());
 
 // Adding method
-object.function_2 = function () {
+mainObject.function2 = function () {
   console.log("Hello, World!");
 };

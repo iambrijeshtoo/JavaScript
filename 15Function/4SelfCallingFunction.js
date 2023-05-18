@@ -1,11 +1,11 @@
-/* --------------------- Self Calling/ Invoking Function -------------------- */
+// Self Calling/ Invoking Function
 
 // Q. What is self calling function?
 // - A self-invoking expression is invoked (started) automatically, without being called.
 
-// [SYNTAX]
-// (function function_name(){}) ();
+// SYNTAX
+// (function functionName(){}) ();
 
-(function greet() {
+(function fun() {
   console.log("Hello, World");
 })();

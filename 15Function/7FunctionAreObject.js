@@ -1,9 +1,9 @@
-/* --------------------------- Function Are Object -------------------------- */
+// Function Are Object
 
 // Q. What is function are object?
 // - When you use `typeof` operator to the datatype of function you will get function back. But internally function are work same as an object. It has method and property same as an object has.
 
-// [NOTE]
+// NOTE
 // - To see function as a object use
 // console.dir(function_name);
 

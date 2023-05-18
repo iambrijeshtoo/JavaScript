@@ -9,7 +9,7 @@ function father(parameter1, parameter2, ...parameter3) {
 }
 father("value1", "value2", "value3", "value4");
 
-function sum(...numbers) {
+function fun(...numbers) {
   let total = 0;
   for (let i = 0; i < numbers.length; i++) {
     let number = numbers[i];
@@ -17,4 +17,4 @@ function sum(...numbers) {
   }
   return total;
 }
-console.log(sum(1, 2, 3));
+console.log(fun(1, 2, 3));

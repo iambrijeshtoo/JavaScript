@@ -22,5 +22,5 @@ console.log('"Double quote"');
 console.log("'Single quote'");
 
 // Length property to find string length
-const var1 = "abc";
+const var1 = "value";
 console.log(num.length);

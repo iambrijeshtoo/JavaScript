@@ -1,6 +1,7 @@
-// Assignment Operators 
-  
+// Assignment Operators
+
 // There are 4 types of assignment operators in JavaScript:
+
 // 1. Assignment Operators:
 // = Simple Assignment Operator
 // += Addition Assignment Operator
@@ -9,10 +10,12 @@
 // **= Exponentiation Assignment Operator
 // /= Division Assignment Operator
 // %= Reminder Assignment Operator
+
 // 2. Shift Assignment Operators:
 // <<= Left Shift Assignment Operator
 // >>= Right Shift Assignment Operator
 // >>>= Unsigned Right Shift Assignment Operator
+
 // 3. Bitwise Assignment Operators:
 // &= Bitwise AND Assignment Operator
 // |= Bitwise OR Assignment Operator
@@ -22,4 +25,3 @@
 // ??= Nullish coalescing assignment operator
 // &&= Logical AND assignment operator
 // ||= Logical OR assignment operator
-

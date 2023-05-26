@@ -8,7 +8,7 @@
 
 // SYNTAX
 // for(element of array){
-//  Do something...
+//  Code...
 // }
 
 // For of loop on array

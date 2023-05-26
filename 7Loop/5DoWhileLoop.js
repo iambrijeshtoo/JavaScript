@@ -7,8 +7,8 @@
 // Increment/ Decrement
 // } while (condition)
 
-let i = 0;
+let num = 0;
 do {
-  console.log(i);
-  i++;
-} while (i <= 10);
+  console.log(num);
+  num++;
+} while (num <= 10);

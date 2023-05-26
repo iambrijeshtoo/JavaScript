@@ -1,47 +1,44 @@
-## Array VS Object literal
+## Array VS Object
 
-| Array                                  | Object literal                              |
-| -------------------------------------- | ------------------------------------------- |
-| It is iterable.                        | It isn't iterable.                          |
-| It store data in linear form.          | It store data in name : value form.         |
-| Element can access using index number. | Element can't be access using index number. |
+| Array                                    | Object                                                                                                              |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | --- |
+| - It is iterable.                        | - It isn't directly iterable. But you can still iterate.                                                            |
+| - It can store different type data.      | - It can store different type of data. But name bust in string format.                                              |
+| - It can store duplicat                  | - It can store duplicatwith differentEme If you add same name in objecEt wil take the last added name and update th |
+| - It store data in linear form.          | - It Ere dat in `name form. E                                                                                       |
+| - Element can access using index number. | - Element can't be access using index number.                                                                       |
+| - Order of element is guaranteed.        | - Order of the property isn't guaranteed.                                                                           |
+|                                          | - It has default name(key).                                                                                         |
+|                                          | - It doesn't have size property.                                                                                    |     |
 
 ## Set VS Map
 
-| Set                             | Map                                |
-| ------------------------------- | ---------------------------------- |
-| It is iterable.                 | It is iterable.                    |
-| It's like array.                | It's like Object literal.          |
-| It store data in linear form.   | It store data in key : value form. |
-| Element order isn't guaranteed. | Element order is guaranteed.       |
-
-## Array VS Set
-
-| Array                                         | Set                                            |
-| --------------------------------------------- | ---------------------------------------------- |
-| It is iterable.                               | It is iterable.                                |
-| It is array.                                  | It is like array.                              |
-| It store data in linear form.                 | It store data in linear form.                  |
-| It store duplicate value.                     | It store unique value.                         |
-| It follow insertion short.                    | It follow insertion short.                     |
-| Element can be access using the index number. | Element can not access using the index number. |
-
-## Object literal VS Map
-
-| Object literal                           | Map                                                                  |
-| ---------------------------------------- | -------------------------------------------------------------------- |
-| It is not iterable.                      | It is iterable.                                                      |
-| It is object literal.                    | It is like object literal.                                           |
-| It follow insertion short.               | It follow insertion short.                                           |
-| It can have string and number as a name. | It can have string, number, array, object, function anything as key. |
-| It store data in "name : value" form.    | It store data in "key : value" form.                                 |
-| e.g. {name : "value"}                    | e.g. [["key", "value"]]                                              |
+| Set                                 | Map                                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| - It is iterable.                   | - It is iterable.                                                                                             |
+| - It can store different type data. | - It can store different type of data. Also `key can be any type of data. E                                   |
+| - It can't store duplicat           | - It can store duplicatwith different kE If yo add same key in map it will Ee th last added key and update th |
+| - It store data in linear form.     | EIt stor data in `key form.E                                                                                  |
+| - It is array like object.          | - It's like Object .                                                                                          |
+| - Element order isn't guaranteed.   | - Element insertion order is guaranteed.                                                                      |
+|                                     | - It doesn't have default key.                                                                                |
+|                                     | - It has size property.                                                                                       |
 
 # Terminology
 
-property:
-attribute:
-item:
-value:
-element:
-function definition: function name
+1. Property
+
+- In object name pair is known as property.
+- JavaScript also has in-built property for example .length (NOTE: This not function/ method)
+
+2. Attribute
+
+- When we create a class and define variable inside it. That variable is known as Attribute.
+
+3. Element
+
+- When store value in array it known as element.
+
+4. Function Definition
+
+- It is the name of function.

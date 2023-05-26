@@ -1,6 +1,6 @@
-// Ternary or Conditional Operator T
+// Ternary or Conditional Operator
 
-// Syntax
-// variable_name = (condition) ? statement_one : statement_two;
+// SYNTAX
+// variableName = (condition) ? statement1 : statement2;
 
 let vote = age < 18 ? "Too young" : "Old enough";

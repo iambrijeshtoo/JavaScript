@@ -1,5 +1,13 @@
 // Switch Condition Statement
 
+// SYNTAX
+// switch (key) {
+//   case value:
+//     break;
+//   default:
+//     break;
+// }
+
 let day = 10;
 switch (day) {
   case 1:

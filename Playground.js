@@ -1,2 +1,9 @@
-let a = prompt("Enter a num: ")
-console.log(a);
+function a() {
+  console.log("hey");
+}
+
+function b(callBack) {
+  callBack(a);
+}
+
+b(a);

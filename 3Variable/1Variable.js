@@ -5,10 +5,10 @@
 // - `var` keyword has been deprecated so it's not recommended to use.
 
 // Single variable
-let num = 1;
+let var1 = 1;
 let var2 = 2;
 
-// Multiple variable
+// Multiple variable with same value
 let var3, var4, var5;
 var3 = var4 = var5 = 1;
 

@@ -1,4 +1,4 @@
-// `let` Keyword
+// Let Keyword
 
 // NOTE
 // - It was added to JavaScript 2015
@@ -9,4 +9,4 @@
 // SYNTAX
 // let variableName = value;
 
-let var_1 = "value";
+let var1 = "value";

@@ -1,10 +1,10 @@
 // Nullish Coalescing Operator
 
-// Q. What is nullish coalescing operator?
+// Q. What is Nullish Coalescing Operator?
 // - It use when variable has null or undefine to give default value to the variable.
 
 // SYNTAX
-// variable_name = null/ undefine ?? default_value;
+// variableName = null/ undefine ?? defaultValue;
 
 let var1 = null ?? "default value";
 console.log(num);

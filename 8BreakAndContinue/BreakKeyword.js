@@ -1,8 +1,8 @@
-// Continue Keyword
+// Break Keyword
 
-for (let i = 0; i < 10; i++) {
-  if (i === 5) {
+for (let num = 0; num < 10; num++) {
+  if (num === 5) {
     break;
   }
-  console.log(i);
+  console.log(num);
 }

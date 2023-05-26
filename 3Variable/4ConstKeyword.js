@@ -6,7 +6,7 @@
 // - It can't be redeclare.
 // - It can't be reassigned.
 
-// [SYNTAX]
+// SYNTAX
 // const variableName = value;
 
-const var_1 = "value";
+const var1 = "value";

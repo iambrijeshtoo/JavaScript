@@ -9,7 +9,7 @@
 // - It's read only you can't add character in string like we do in array str[0] = A (This won't give you the error but it will not work.)
 
 // SYNTAX
-// variable[indexNumber]
+// string[indexNumber]
 
 let str = "Hello world";
 console.log(str[3]);

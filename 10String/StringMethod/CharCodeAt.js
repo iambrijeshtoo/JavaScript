@@ -5,7 +5,7 @@
 // - The method returns a UTF-16 code (an integer between 0 and 65535).
 
 // SYNTAX
-// variable.charCodeAt(indexNumber);
+// string.charCodeAt(indexNumber);
 
 let str = "Hello world"
 let var1 = str.charCodeAt(3);

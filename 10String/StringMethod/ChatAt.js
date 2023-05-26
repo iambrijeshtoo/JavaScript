@@ -7,7 +7,7 @@
 // - // - If no character is found charAt() return empty string.
 
 // SYNTAX
-// variable.charAt(indexNumber);
+// string.charAt(indexNumber);
 
 let str = "Hello world";
 let var1 = str.charAt(3);

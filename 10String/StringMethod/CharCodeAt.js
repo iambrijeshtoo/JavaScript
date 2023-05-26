@@ -8,5 +8,5 @@
 // variable.charCodeAt(indexNumber);
 
 let str = "Hello world"
-let uniCode = str.charCodeAt(3);
-console.log(uniCode);
+let var1 = str.charCodeAt(3);
+console.log(var1);

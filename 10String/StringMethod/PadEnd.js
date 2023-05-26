@@ -7,6 +7,6 @@
 // string.padEnd(targetLength, padString);
 
 let str = "Hello world";
-let padString = str.padEnd(20, "0");
+let var1 = str.padEnd(20, "0");
 
-console.log(padString);
+console.log(var1);

@@ -68,7 +68,9 @@
 10. String
     1.  Escape Sequence
     2.  String Concatenation
-    3.  
+    3.  String Template
+    4.  String Conversion
+    5.  String Method
 
   - String index
   - String method

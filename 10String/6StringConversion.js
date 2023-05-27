@@ -9,9 +9,9 @@ let num1 = 100 + "";
 console.log(typeof num1);
 
 // String to Number
-let str = "Hello, World!";
+let str = "100";
 str = Number(str);
 console.log(typeof str);
 
-let str1 = +"Hello, World!";
+let str1 = +"100";
 console.log(typeof str1);

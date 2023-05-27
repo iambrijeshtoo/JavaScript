@@ -1,6 +1,6 @@
-// For Each Method In Array
+// forEach()
 
-// Q. What is forEach method?
+// Q. What is forEach()?
 // - The forEach() method is a built-in function in JavaScript that allows you to iterate over the elements of an array or array-like object and perform a specified action for each element. It provides a convenient way to iterate through the elements without the need for explicit loop constructs like for or while loops.
 
 // NOTE

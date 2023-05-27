@@ -1,15 +1,15 @@
 ## Array VS Object
 
-| Array                                    | Object                                                                                                              |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | --- |
-| - It is iterable.                        | - It isn't directly iterable. But you can still iterate.                                                            |
-| - It can store different type data.      | - It can store different type of data. But name bust in string format.                                              |
-| - It can store duplicat                  | - It can store duplicatwith differentEme If you add same name in objecEt wil take the last added name and update th |
-| - It store data in linear form.          | - It Ere dat in `name form. E                                                                                       |
-| - Element can access using index number. | - Element can't be access using index number.                                                                       |
-| - Order of element is guaranteed.        | - Order of the property isn't guaranteed.                                                                           |
-|                                          | - It has default name(key).                                                                                         |
-|                                          | - It doesn't have size property.                                                                                    |     |
+| Array                                    | Object                                                                                                                         |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| - It is iterable.                        | - It isn't directly iterable. But you can still iterate.                                                                       |
+| - It can store different type data.      | - It can store different type of data. But name bust in string format.                                                         |
+| - It can store duplicate value.          | - It can store duplicate value with different key. If you add same key in object it will take the last added key and update th |
+| - It store data in linear form.          | - It Ere dat in `name form. E                                                                                                  |
+| - Element can access using index number. | - Element can't be access using index number.                                                                                  |
+| - Order of element is guaranteed.        | - Order of the property isn't guaranteed.                                                                                      |
+|                                          | - It has default name(key).                                                                                                    |
+|                                          | - It doesn't have size property.                                                                                               |
 
 ## Set VS Map
 

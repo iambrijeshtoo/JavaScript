@@ -11,8 +11,8 @@ let myLet = "Let";
 const myConst = "Const";
 
 // Datatype
-let myInteger = 100;
-let myFloat = 10.0;
+let myInteger = 123;
+let myFloat = 3.14;
 let myString = "Hello, world!";
 let myCharacter = "@";
 
@@ -59,4 +59,3 @@ class MyClass {
 }
 
 
-9825592320

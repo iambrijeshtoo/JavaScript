@@ -1,13 +1,13 @@
-// Find Method
+// find()
 
-// Q. What is find method?
+// Q. What is find()?
 // - It takes call back function as parameter.
 // - It takes element from the given array and find particular value according to the condition. As soon as it finds a value which satisfies the condition it will stop searching.
 
 // SYNTAX
-const array = ["123", "1234", "12345"];
-const answer = array.find((string) => string.length === 4);
-console.log(answer);
+const arr = ["123", "1234", "12345"];
+const ans = arr.find((str) => str.length === 4);
+console.log(ans);
 
 // EXAMPLE: Find user which id number is 3.
 const usersDetails = [
@@ -24,5 +24,5 @@ const usersDetails = [
     userName: "Flash",
   },
 ];
-const answer1 = usersDetails.find((user) => user.userId === 3);
-console.log(answer1.userName);
+const ans1 = usersDetails.find((user) => user.userId === 3);
+console.log(ans1.userName);

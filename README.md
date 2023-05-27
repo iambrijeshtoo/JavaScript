@@ -48,6 +48,7 @@
    4. Switch
 
 7. Loop
+
    1. For Loop
    2. For In Loop
    3. For Of Loop
@@ -55,52 +56,32 @@
    5. Do While Loop
 
 8. Break & Continue
-  1. Break Keyword
-  2. Continue 
+
+   1. Break Keyword
+   2. Continue
 
 9. Iterate
-   1.  String Iterate
-   2.  Array Iterate
-   3.  Object Iterate
-   4.  Set Iterate
-   5.  Map Iterate
+
+   1. String Iterate
+   2. Array Iterate
+   3. Object Iterate
+   4. Set Iterate
+   5. Map Iterate
 
 10. String
-    1.  Escape Sequence
-    2.  String Concatenation
-    3.  String Template
-    4.  String Conversion
-    5.  String Method
 
-  - String index
-  - String method
-  - String conversion
+    1. Escape Sequence
+    2. String Concatenation
+    3. String Template
+    4. String Conversion
+    5. String Index
+    6. String Method
 
-- Array
-  - Accessing array
-  - Adding array
-  - Updating array
-  - Push
-  - Pop
-  - Unshift
-  - Shift
-  - Spread operator in array
-  - For loop in array
-  - For of loop in array
-  - For in loop in array
-  - For each method in array
-  - While loop in array
-  - Array destructure
-  - Array's methods
-    - forEach method
-    - Map method
-    - Reduce method
-    - Sort method
-    - Find method
-    - Every method
-    - Some methods
-    - Fill method
-    - Splice method
+11. Array
+    1. Array are object
+    2. Array operation
+    3. Array destructure
+    4. Array Iterate   
 - Objects
   - Object iteration
   - Object computed properties

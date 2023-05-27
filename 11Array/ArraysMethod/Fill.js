@@ -1,10 +1,10 @@
-// Fill Method
+// fill()
 
-// Q. What is fill method?
+// Q. What is fill()?
 // - It take custom value and replace element in array with custom value.
 // - You can create empty array and fill the array with custom value.
 
-// Q. How to use fill method?
+// Q. How to use fill()?
 // - It take direct custom value and fill the array with it.
 // - It can take custom value and replace element with custom value for selected start and end index.
 

@@ -81,7 +81,8 @@
     1. Array are object
     2. Array operation
     3. Array destructure
-    4. Array Iterate   
+    4. Array Iterate
+
 - Objects
   - Object iteration
   - Object computed properties
@@ -108,13 +109,13 @@
 - Bind
 -
 
-this
-window object
-
-call
-apply
-bind
-
-class
-constructor
-inheritance
+22. Object Oriented Programming
+    1.  What is OOPs?
+    2.  Class
+    3.  Constructor
+    4.  Class Method
+    5.  Factory Function
+    6.  Inheritance
+    7.  Encapsulation
+    8.  Abstraction
+    9.  Polymorphism

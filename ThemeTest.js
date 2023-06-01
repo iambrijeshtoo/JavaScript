@@ -1,5 +1,3 @@
-// Single line comment
-
 /* 
   Multiline 
   comment
@@ -11,8 +9,8 @@ let myLet = "Let";
 const myConst = "Const";
 
 // Datatype
-let myInteger = 123;
-let myFloat = 3.14;
+let myInteger = 100;
+let myFloat = 10.0;
 let myString = "Hello, world!";
 let myCharacter = "@";
 
@@ -57,5 +55,3 @@ class MyClass {
     console.log("Hello, World!");
   }
 }
-
-

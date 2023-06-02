@@ -14,7 +14,7 @@ function printPerson(person) {
   var name = person.name;
   var age = person.age;
 
-  console.log(name + " is " + age + " years old.");
+  console.log(name + " is " + age + " years old.");``
 }
 
 // With destructuring

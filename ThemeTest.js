@@ -37,8 +37,8 @@ const myMap = new Map([
 
 // Function
 function myFunction(parameter1, parameter2) {
-  parameter1 = this.parameter1;
-  parameter2 = this.parameter2;
+  this.parameter1 = parameter1;
+  this.parameter2 = parameter2;
 }
 
 // Arrow Function

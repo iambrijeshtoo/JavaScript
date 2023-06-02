@@ -119,3 +119,9 @@
     7.  Encapsulation
     8.  Abstraction
     9.  Polymorphism
+
+### Advance JavaScript Concept
+1. Asnyc
+2. Defer
+3. Module
+4. Scooping

@@ -1,14 +1,11 @@
-const a = 0;
-console.log(-Math.abs(a));
+// Prompt the user to enter the first number
+var number1 = parseFloat(prompt("Enter the first number:"));
 
-// function makeNegative(num) {
-//   return -Math.abs(num);
-// }
+// Prompt the user to enter the second number
+var number2 = parseFloat(prompt("Enter the second number:"));
 
-// console.log(makeNegative(0));
+// Calculate the sum of the two numbers
+var sum = number1 + number2;
 
-function makeNegative(num) {
-  return num < 0 ? num : -num;
-}
-
-console.log(makeNegative(0));
+// Print the result
+console.log("The sum is: " + sum);

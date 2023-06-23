@@ -9,20 +9,20 @@ let myLet = "Let";
 const myConst = "Const";
 
 // Datatype
-let myInteger = 100;
-let myFloat = 10.0;
-let myString = "Hello, world!";
-let myCharacter = "@";
+let integer = 123;
+let float = 3.14;
+let string = "Hello, world!";
+let character = "@";
 
 // Array
-let arrayNumbers = [1, 2, 3];
+let arrayNumber = [1, 2, 3, 4, 5];
 const arrayStrings = ["element1", "element2", "element3"];
 
 // Object
-const myObject = {
-  name1: "value1",
-  name2: "value2",
-  name3: "value3",
+const object = {
+  key1: "value1",
+  key2: "value2",
+  key3: "value3",
 };
 
 // Set
@@ -42,16 +42,12 @@ function myFunction(parameter1, parameter2) {
 }
 
 // Arrow Function
-const myArrowFunction = (parameter) => console.log(parameter);
+const arrowFunction = (parameter) => console.log(parameter);
 
 // Class
-class MyClass {
-  // console.log("Hello, World!");
-}
+class MyClass {}
 
 // Constructor
 class MyClass {
-  constructor(name) {
-    console.log("Hello, World!");
-  }
+  constructor(parameter) {}
 }

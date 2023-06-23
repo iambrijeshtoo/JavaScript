@@ -3,14 +3,14 @@
 // Q. What is hoisted? (Not Recommended)
 // - In Other programming languages you need to declare the variable first and then you need to initialize.
 
-let variable; // Declaration
-variable = "value"; // Initialization
+let var1; // Declaration
+var1 = "value"; // Initialization
 
 // - But in JavaScript a variable can be used before it has been declared.
 
-variable1 = "value"; // Initialization
-console.log(variable1); // Used without declaration
-var variable1; // Declaration
+var2 = "value"; // Initialization
+console.log(var2); // Used without declaration
+var var2; // Declaration
 
 // This kind of behavior known as hoisting.
 

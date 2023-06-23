@@ -30,7 +30,7 @@ function fun() {
   return this;
 }
 
-// 'this` in a function when strict mode on it's undefine
+// `this` in a function when strict mode on it's undefine
 function fun1() {
   return this;
 }

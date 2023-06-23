@@ -14,5 +14,3 @@ const obj2 = {
 
 obj1.fun();
 obj2.fun();
-
-

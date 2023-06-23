@@ -1,14 +1,13 @@
-# JavaScript
+# Javascript
 
 1. Comment
 
-   1. Backtick
-   2. Single Quote
-   3. Double Quote
+   1. Single Line Comment
+   2. Multi Line Comment
 
 2. Output
 
-   1. console.log
+   1. Console.Log
 
 3. Variable
 
@@ -19,15 +18,15 @@
 4. Datatype
 
    1. Number
-   2. BigInt
+   2. Bigint
    3. String
    4. Boolean
    5. Object
    6. Array
    7. Null
    8. Undefine
-   9. Empty value
-   10. Concept of Datatype
+   9. Empty Value
+   10. Concept Of Datatype
 
 5. Operators
 
@@ -36,16 +35,16 @@
    3. Assignment Operators
    4. Comparison Operators
    5. Logical Operators
-   6. Ternary or Conditional Operator
+   6. Ternary Or Conditional Operator
    7. Nullish Coalescing Operator
    8. Optional Chaining Operator
 
 6. Condition Statement
 
-   1. If & Else
-   2. Else If
-   3. Nested If Else
-   4. Switch
+   1. If & Else Statement
+   2. Else If Statement
+   3. Nested If Else Statement
+   4. Switch Statement
 
 7. Loop
 
@@ -60,15 +59,15 @@
    1. Break Keyword
    2. Continue
 
-9. Iterate
+9. Iteration
 
-   1. String Iterate
-   2. Array Iterate
-   3. Object Iterate
-   4. Set Iterate
-   5. Map Iterate
+10. String Iteration
+11. Array Iteration
+12. Object Iteration
+13. Set Iteration
+14. Map Iteration
 
-10. String
+15. String
 
     1. Escape Sequence
     2. String Concatenation
@@ -77,40 +76,40 @@
     5. String Index
     6. String Method
 
-11. Array
-    1. Array are object
-    2. Array operation
-    3. Array destructure
+16. Array
+    1. Array Are Object
+    2. Array Operation
+    3. Array Destructure
     4. Array Iterate
 
 - Objects
-  - Object iteration
-  - Object computed properties
-  - Object destructure
-  - Object cloning
-  - Optional chaining
+  - Object Iteration
+  - Object Computed Properties
+  - Object Destructure
+  - Object Cloning
+  - Optional Chaining
 - Function
-  - Function inside function
-  - Function expression
-  - Arrow function
-  - Function hoisting
-  - Function lexical scope
-  - Function scope vs block scope
-  - Default parameter
-  - Rest parameter
-  - Parameter destructuring
-  - Callback function
-  - Function returning function
+  - Function Inside Function
+  - Function Expression
+  - Arrow Function
+  - Function Hoisting
+  - Function Lexical Scope
+  - Function Scope Vs Block Scope
+  - Default Parameter
+  - Rest Parameter
+  - Parameter Destructuring
+  - Callback Function
+  - Function Returning Function
 - Method
-- this keyword
-- Window object
+- This Keyword
+- Window Object
 - Call
 - Apply
 - Bind
 -
 
 22. Object Oriented Programming
-    1.  What is OOPs?
+    1.  What Is Oops?
     2.  Class
     3.  Constructor
     4.  Class Method
@@ -120,8 +119,11 @@
     8.  Abstraction
     9.  Polymorphism
 
-### Advance JavaScript Concept
+### Advance Javascript Concept
+
 1. Asnyc
 2. Defer
 3. Module
 4. Scooping
+5. Hoisting
+6.

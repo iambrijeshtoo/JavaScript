@@ -4,11 +4,12 @@
 // - In JavaScript, the export keyword is used to expose functionality from a module so that it can be imported and used in other modules.
 // - When you use export, you can make variables, functions, or classes available for use in other modules. By exporting specific elements, you define the public interface of your module, allowing other modules to access and utilize those exported elements.
 
-// NOTE
-// - You can only us default export one time. In most case it is your class.
+//! NOTE
+// - You can only use default export one time. In most case it is your class.
+// - You can't export default const value.
 
 // Q. How to use Modules?
-// - In JavaScript there are two keyword `export default` and `export {}` to use modules feature.
+// - In JavaScript there are two keyword `export default` and `export {}` to use modules  feature.
 
 // - There are three type of export
 // 1. Named export

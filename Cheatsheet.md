@@ -24,6 +24,19 @@
 |                                     | - It doesn't have default key.                                                                                                         |
 |                                     | - It has size property.                                                                                                                |
 
+# Iteration
+
+1. For Iterating Array
+
+- for loop
+- for of loop
+- forEach()
+
+2. For Iteration Object
+
+- for in loop: use to iterate over object properties.
+-
+
 # Terminology
 
 Property == Attribute == Fields

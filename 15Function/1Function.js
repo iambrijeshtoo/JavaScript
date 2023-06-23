@@ -2,6 +2,7 @@
 
 // NOTE
 // - When argument doesn't pass it will take value as a undefined.
+// - Other word empty function return undefine.
 
 // SYNTAX
 // function function_name(parameter_1, parameter_2){

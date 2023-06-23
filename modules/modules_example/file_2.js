@@ -9,4 +9,4 @@ console.log(obj);
 fun();
 
 // NOTE
-// Right now it will give you the error because files are not treated as module but if you use this with HTML this will work.
+// Right now it will give you the error because files are not treated as module but if you use this with HTML this will work. 

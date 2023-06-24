@@ -8,6 +8,9 @@
 // 2. Directly passing function as a parameter to another function.
 // 3. Directly passing arrow function as a parameter to another function.
 
+// NOTE
+// - JavaScript functions are executed in the sequence they are called. Not in the sequence they are defined.
+
 // 1. Pass function as a parameter to another function.
 function myFunction1() {
   console.log("I am function1 called by using call back function");

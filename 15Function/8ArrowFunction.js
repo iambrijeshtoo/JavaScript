@@ -4,7 +4,7 @@
 // - It is the short syntax for function.
 
 // SYNTAX
-// const/ let variable_name = () => {}
+// const variable_name = () => {}
 
 const fun1 = () => {
   console.log("Hello, World!");

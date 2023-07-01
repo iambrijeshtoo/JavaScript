@@ -41,10 +41,13 @@
 
 6. Condition Statement
 
-   1. If & Else Statement
-   2. Else If Statement
-   3. Nested If Else Statement
-   4. Switch Statement
+   1. If statement
+      1. Independent if statement 
+      2. Nested if statement
+   2. Else Statement
+   3. Else If Statement
+   4. Nested If Else Statement
+   5. Switch Statement
 
 7. Loop
 
@@ -136,3 +139,15 @@
 4. Scooping
 5. Hoisting
 6.
+
+### Theme
+
+1. Bluloco theme
+2. One dark pro
+3. Palenight theme
+4. Night owl
+5. Tokyo night
+6. Aura dark
+7. Dracula
+8. Github theme
+9. Noctis

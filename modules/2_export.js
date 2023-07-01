@@ -21,13 +21,16 @@
 // 2. Endline export
 
 // Inline export
+// 1. Default export
 export default class MyClass {
-  constructor() {} // 1. Default export
+  constructor() {} 
 }
 
-export let var1 = "value"; // 2. Named export
+// 2. Named export
+export let var1 = "value"; 
 export function fun() {}
 
+// 3. Exporting multiple items
 // Endline export
 // export default MyClass
-// export {var1 , fun} // 3. Exporting multiple items
+// export {var1 , fun}

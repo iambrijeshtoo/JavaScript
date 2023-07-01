@@ -1,8 +1,3 @@
-/* 
-  Multiline 
-  comment
-*/
-
 // Variable
 var myVar = "Var";
 let myLet = "Let";
@@ -22,7 +17,7 @@ const arrayStrings = ["element1", "element2", "element3"];
 const object = {
   key1: "value1",
   key2: "value2",
-  key3: "value3",    
+  key3: "value3",
 };
 
 // Set
@@ -43,7 +38,6 @@ function myFunction(parameter1, parameter2) {
 
 // Arrow Function
 const arrowFunction = (parameter) => console.log(parameter);
-
 
 // Class
 class MyClass {}

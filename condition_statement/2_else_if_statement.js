@@ -1,5 +1,3 @@
-// Else If Statement
-
 let bat = true;
 let ball = false;
 

@@ -1,5 +1,3 @@
-// Nested If Else Condition
-
 let box = true;
 let item = true;
 

@@ -84,6 +84,8 @@
     2. Array Operation
     3. Array Destructure
     4. Array Iterate
+    5. Array's method
+       1. map()
 
 - Objects
   - Object Iteration
@@ -138,16 +140,3 @@
 3. Module
 4. Scooping
 5. Hoisting
-6.
-
-### Theme
-
-1. Bluloco theme
-2. One dark pro
-3. Palenight theme
-4. Night owl
-5. Tokyo night
-6. Aura dark
-7. Dracula
-8. Github theme
-9. Noctis

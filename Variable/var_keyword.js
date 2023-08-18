@@ -14,8 +14,8 @@ var variable;
 variable = "value";
 
 // Redeclare
-var variable = "value1";
-var variable = "value2";
+var variable = "value";
+var variable = "value";
 
 // Reassigned
 var variable = "value1";

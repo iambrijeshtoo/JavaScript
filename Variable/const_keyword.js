@@ -8,7 +8,7 @@
 // SYNTAX
 // const variableName = value;
 
-// Initialize and declare at the same time
+// Initialize & declare at the same time
 const variable = "value";
 
 // Can't be redeclare

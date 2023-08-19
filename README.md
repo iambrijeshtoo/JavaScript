@@ -7,13 +7,16 @@
 
 2. Output
 
-   1. Console.Log
+   1. console.log()
+   2. console.table()
 
 3. Variable
 
    1. Var Keyword
    2. Let Keyword
    3. Const Keyword
+   
+TODO: Scope
 
 4. Datatype
 
@@ -42,7 +45,7 @@
 6. Condition Statement
 
    1. If statement
-      1. Independent if statement 
+      1. Independent if statement
       2. Nested if statement
    2. Else Statement
    3. Else If Statement
@@ -62,7 +65,7 @@
    1. Break Keyword
    2. Continue
 
-9. Iteration
+9.  Iteration
 
 10. String Iteration
 11. Array Iteration

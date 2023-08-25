@@ -10,8 +10,8 @@ let string = "Hello, world!";
 let character = "@";
 
 // Array
-let arrayNumber = [1, 2, 3, 4, 5];
-const arrayStrings = ["element1", "element2", "element3"];
+let arrayNumbers = [1, 2, 3, 4, 5];
+let arrayStrings = ["element1", "element2", "element3"];
 
 // Object
 const object = {

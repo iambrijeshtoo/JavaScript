@@ -11,3 +11,12 @@ console.log(variable);
 
 let variable1 = (4 / 2) * (2 + 1);
 console.log(variable1);
+
+// Note
+// Adding string with number in JavaScript treat number as a string.
+let variable2 = "str" + 1 + 2;
+console.log(variable2);
+
+// JavaScript evaluate code from left to right so it will do the arithmetic operation first than treat the answer as a string.
+let variable3 = 1 + 2 + "str";
+console.log(variable3);

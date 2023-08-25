@@ -1,5 +1,7 @@
 # Javascript
 
+TODO: Scope
+
 1. Comment
 
    1. Single Line Comment
@@ -15,21 +17,14 @@
    1. Var Keyword
    2. Let Keyword
    3. Const Keyword
-   
-TODO: Scope
 
 4. Datatype
 
-   1. Number
-   2. Bigint
-   3. String
-   4. Boolean
-   5. Object
-   6. Array
-   7. Null
-   8. Undefine
-   9. Empty Value
-   10. Concept Of Datatype
+   1. Datatype
+   2. Type of datatype
+   3. NaN
+   4. Datatype conversion
+   5. Unary operator
 
 5. Operators
 
@@ -65,7 +60,7 @@ TODO: Scope
    1. Break Keyword
    2. Continue
 
-9.  Iteration
+9. Iteration
 
 10. String Iteration
 11. Array Iteration

@@ -1,7 +1,5 @@
 # Javascript
 
-TODO: Scope
-
 1. Comment
 
    1. Single Line Comment

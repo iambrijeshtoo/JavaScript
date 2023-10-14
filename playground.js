@@ -1,4 +1,10 @@
 a = 1;
-a = 2;
+a = 1;
 
-console.log(a);
+var b = 1;
+
+let c = 10;
+c = 100;
+
+
+console.log(typeof a);

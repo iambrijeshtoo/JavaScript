@@ -7,7 +7,3 @@
 NOTE
 
 - You can declare variable without using any of this keyword. But that is not recommend.
-
-```javascript
-variable = "value";
-```

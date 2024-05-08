@@ -4,7 +4,7 @@ let myLet = "Let";
 const myConst = "Const";
 
 // Datatype
-let integer = 123;
+let integer = 123;  
 let float = 3.14;
 let string = "Hello, world!";
 let character = "@";

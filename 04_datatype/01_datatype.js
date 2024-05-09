@@ -10,11 +10,9 @@ let int = 123;
 let float = 3.14;
 let double = 99.99;
 let scientificNumber = 10e2;
-
-// BigInt
-// NOTE: BigInt numbers can only perform operation with BigInt datatype
 let bigInt1 = BigInt(1000); // Creating BigInt number using function
 let bigInt2 = 1000n; // Creating BigInt number using `n` at the end of the number
+// NOTE: BigInt numbers can only perform operation with BigInt datatype
 
 // String
 let string1 = `Backtick`;
@@ -25,22 +23,22 @@ let string3 = "Double quote";
 let boolean1 = true;
 let boolean2 = false;
 
+// Undefined
+let myUndefined1 = undefined;
+let myUndefined2; // Declared variable which doesn't assigned any value also has undefined value.
+
 // Null
 // NOTE
-// - Null is standalone value. To understand this let say you are creating weather application which give you the temperature of selected city. For any reason server unable you send the temperature that mean there is no temperature value. At that case weather app shouldn't show `0` on screen. Because 0 also refer as temperature value. At that time we use null to show there is actually no temperature and server are unable to fetch data of temperature.
+// - Null is standalone value. To understand this let say you are creating weather application which give you the temperature of selected city. For any reason server unable to send you the temperature that means there is no temperature value. At that case weather app shouldn't show `0` on screen. Because 0 also refer as temperature value. At that time we use null to show there is actually no temperature and server are unable to fetch data of temperature.
 // - When check the typeof null it will show it is an object.
 let myNull = null;
-
-// Undefined
-// NOTE
-let myUndefined1 = undefined;
-let myUndefined2; // Declared variable which doesn't assigned any value also has undefined value 
 
 // Empty value
 let emptyValue = "";
 
+// TODO:
 // Symbol
-// - Unique
+const mySymbol = Symbol();
 
 // Complex datatype
 
@@ -52,4 +50,9 @@ const object = {
 };
 
 // Array
-let array = [1, 2, 3, 4, 5];
+let array = [value1, value2, value3];
+
+// Function
+function functionName(parameter) {
+  return parameter;
+}

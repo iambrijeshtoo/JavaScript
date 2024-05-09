@@ -5,5 +5,5 @@
 
 // Example
 const numberAsString = "123";
-const convertTonumber = +numberAsString;
-console.log(typeof convertTonumber);
+const convertToNumber = +numberAsString;
+console.log(typeof convertToNumber);

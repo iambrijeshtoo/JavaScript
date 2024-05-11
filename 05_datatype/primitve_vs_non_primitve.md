@@ -9,7 +9,7 @@ JavaScript has several built-in data types that are used to represent different 
    - **Null**: Represents the intentional absence of any value.
    - **Symbol**: Introduced in ECMAScript 6 (ES6), symbols are unique and immutable values that are often used as object property keys.
 
-2. **Complex Data Types:**
+2. **Non-Primitive Data Types (Reference, Complex):**
    - **Object**: Represents a collection of key-value pairs, where keys are strings (or symbols) and values can be of any data type.
    - **Array**: Represents an ordered list of values, indexed by integers.
    - **Function**: Represents executable code that can be invoked or called.

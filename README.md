@@ -10,13 +10,17 @@
    1. console.log()
    2. console.table()
 
-3. Variable
+3. Directive
+
+   1. use strict
+
+4. Variable
 
    1. Var Keyword
    2. Let Keyword
    3. Const Keyword
 
-4. Datatype
+5. Datatype
 
    1. Datatype
    2. Type of datatype
@@ -24,7 +28,7 @@
    4. Datatype conversion
    5. Unary operator
 
-5. Operators
+6. Operators
 
    1. Operator Precedence
    2. Arithmetic Operators
@@ -35,7 +39,7 @@
    7. Nullish Coalescing Operator
    8. Optional Chaining Operator
 
-6. Condition Statement
+7. Condition Statement
 
    1. If statement
       1. Independent if statement
@@ -45,7 +49,7 @@
    4. Nested If Else Statement
    5. Switch Statement
 
-7. Loop
+8. Loop
 
    1. For Loop
    2. For In Loop
@@ -53,20 +57,20 @@
    4. While Loop
    5. Do While Loop
 
-8. Break & Continue
+9. Break & Continue
 
    1. Break Keyword
    2. Continue
 
-9. Iteration
+10. Iteration
 
-10. String Iteration
-11. Array Iteration
-12. Object Iteration
-13. Set Iteration
-14. Map Iteration
+11. String Iteration
+12. Array Iteration
+13. Object Iteration
+14. Set Iteration
+15. Map Iteration
 
-15. String
+16. String
 
     1. Escape Sequence
     2. String Concatenation
@@ -75,7 +79,7 @@
     5. String Index
     6. String Method
 
-16. Array
+17. Array
     1. Array Are Object
     2. Array Operation
     3. Array Destructure

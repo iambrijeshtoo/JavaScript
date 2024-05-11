@@ -17,3 +17,4 @@ console.log(Array.isArray(myArray)); // Output: true (correct identification)
 
 // Note
 // - While `typeof array` might return `"object"`, it's important to understand that arrays are a specialized type of object in JavaScript. For precise array identification, use the `Array.isArray(value)` method.
+

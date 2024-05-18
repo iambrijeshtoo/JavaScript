@@ -7,26 +7,25 @@
 
 2. Output
 
-   1. console.log()
-   2. console.table()
+   1. `console.log()`
+   2. `console.table()`
 
 3. Directive
 
-   1. use strict
+   1. `use strict`
 
 4. Variable
 
-   1. Var Keyword
-   2. Let Keyword
-   3. Const Keyword
+   1. `var` Keyword
+   2. `let` Keyword
+   3. `const` Keyword
 
 5. Datatype
 
-   1. Datatype
-   2. Type of datatype
-   3. NaN
-   4. Datatype conversion
-   5. Unary operator
+   1. Type of datatype
+   2. NaN
+   3. Datatype conversion
+   4. Unary operator
 
 6. Operators
 
@@ -38,6 +37,74 @@
    6. Ternary Or Conditional Operator
    7. Nullish Coalescing Operator
    8. Optional Chaining Operator
+
+Sure! Here is a list of all the operators in JavaScript:
+
+### Arithmetic Operators
+- `+` (Addition)
+- `-` (Subtraction)
+- `*` (Multiplication)
+- `/` (Division)
+- `%` (Modulus)
+- `**` (Exponentiation)
+- `++` (Increment)
+- `--` (Decrement)
+
+### Assignment Operators
+- `=` (Assignment)
+- `+=` (Addition assignment)
+- `-=` (Subtraction assignment)
+- `*=` (Multiplication assignment)
+- `/=` (Division assignment)
+- `%=` (Modulus assignment)
+- `**=` (Exponentiation assignment)
+- `<<=` (Left shift assignment)
+- `>>=` (Right shift assignment)
+- `>>>=` (Unsigned right shift assignment)
+- `&=` (Bitwise AND assignment)
+- `|=` (Bitwise OR assignment)
+- `^=` (Bitwise XOR assignment)
+
+### Comparison Operators
+- `==` (Equal to)
+- `!=` (Not equal to)
+- `===` (Strict equal to)
+- `!==` (Strict not equal to)
+- `>` (Greater than)
+- `<` (Less than)
+- `>=` (Greater than or equal to)
+- `<=` (Less than or equal to)
+
+### Logical Operators
+- `&&` (Logical AND)
+- `||` (Logical OR)
+- `!` (Logical NOT)
+
+### Bitwise Operators
+- `&` (Bitwise AND)
+- `|` (Bitwise OR)
+- `^` (Bitwise XOR)
+- `~` (Bitwise NOT)
+- `<<` (Left shift)
+- `>>` (Sign-propagating right shift)
+- `>>>` (Zero-fill right shift)
+
+### String Operators
+- `+` (Concatenation)
+
+### Conditional (Ternary) Operator
+- `? :` (Conditional)
+
+### Type Operators
+- `typeof`
+- `instanceof`
+- `in`
+- `void`
+- `delete`
+
+### Other Operators
+- `,` (Comma operator)
+- `...` (Spread/rest operator)
 
 7. Condition Statement
 
@@ -57,7 +124,7 @@
    4. While Loop
    5. Do While Loop
 
-9. Break & Continue
+9.  Break & Continue
 
    1. Break Keyword
    2. Continue

@@ -1,14 +1,14 @@
 // Const Keyword
 
-// WHAT
+// What
 // - The const keyword is use to create constant.
 
-// NOTE
+// Note
 // - It can only initialized when it's declared.
 // - It can't be redeclare.
 // - It can't be reassigned.
 
-// SYNTAX
+// Syntax
 // const constantName = value;
 
 // Initialize & declare at the same time

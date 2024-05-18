@@ -1,4 +1,4 @@
-// Datatype conversion (Type conversion)
+// Type Conversion (Datatype Conversion)
 
 // Numbers
 

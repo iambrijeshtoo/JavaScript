@@ -1,11 +1,11 @@
 // Let Keyword
 
-// NOTE
+// Note
 // - It can be initialized later.
 // - It can be reassigned.
 // - It can't be redeclare.
 
-// SYNTAX
+// Syntax
 // let variableName = value;
 
 // Initialized later

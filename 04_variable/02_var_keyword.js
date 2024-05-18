@@ -1,12 +1,12 @@
-// Var Keyword
+// var Keyword
 
-// NOTE
+// Note
 // - It can be initialized later.
 // - It can be redeclare.
 // - It can be reassigned.
 // - var keyword has been deprecated so it's not recommended to use.
 
-// SYNTAX
+// Syntax
 // var variableName = value;
 
 // Initialized later

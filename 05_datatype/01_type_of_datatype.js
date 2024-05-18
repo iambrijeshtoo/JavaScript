@@ -1,6 +1,6 @@
-// Datatype
+// Type Of Datatype
 
-// NOTE
+// Note
 // - JavaScript is dynamic language so that we don't need to specify each and every datatype. It will dynamically set the datatype according the the variable's value.
 
 // Primitive datatype
@@ -10,9 +10,9 @@ let int = 123;
 let float = 3.14;
 let double = 99.99;
 let scientificNumber = 10e2;
+// NOTE: BigInt numbers can only perform operation with BigInt datatype
 let bigInt1 = BigInt(1000); // Creating BigInt number using function
 let bigInt2 = 1000n; // Creating BigInt number using `n` at the end of the number
-// NOTE: BigInt numbers can only perform operation with BigInt datatype
 
 // String
 let string1 = `Backtick`;
@@ -36,11 +36,10 @@ let myNull = null;
 // Empty value
 let emptyValue = "";
 
-// TODO:
 // Symbol
 const mySymbol = Symbol();
 
-// Complex datatype
+// Complex Datatype
 
 // Object
 const object = {

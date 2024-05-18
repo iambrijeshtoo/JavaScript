@@ -1,19 +1,16 @@
 // Variable
 
-// WHAT
+// What
 // - Variables in JavaScript are like containers where you can store information. This information can be numbers, text, lists, or even more complex data.
 
-// WHY
+// Why
 // - Variables are used to keep track of data that we want to use or change in our programs. They help us store values temporarily and reuse them later in our code.
 
-// NOTE
+// Note
 // - To create variable you can use var, let and const keyword.
 // - `var` keyword has been deprecated so it's not recommended to use. Only use `let` and `const`.
 
-// PROS
-// Flexibility: Variables allow us to store different types of data, like numbers, text, or lists.
-// Reusability: Once we store data in a variable, we can reuse it multiple times throughout our code.
-// Readability: Giving meaningful names to variables makes our code easier to understand.
+// Syntax
 
 // Single variable
 let variable1 = 1;
@@ -27,3 +24,8 @@ variable3 = variable4 = variable5 = 1;
 let variable6 = 1,
   variable7 = 2,
   variable8 = 3; // Declaring and initializing at the same time
+
+// Pros
+// - Flexibility: Variables allow us to store different types of data, like numbers, text, or lists.
+// - Reusability: Once we store data in a variable, we can reuse it multiple times throughout our code.
+// - Readability: Giving meaningful names to variables makes our code easier to understand.

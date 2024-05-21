@@ -41,6 +41,7 @@
 Sure! Here is a list of all the operators in JavaScript:
 
 ### Arithmetic Operators
+
 - `+` (Addition)
 - `-` (Subtraction)
 - `*` (Multiplication)
@@ -51,6 +52,7 @@ Sure! Here is a list of all the operators in JavaScript:
 - `--` (Decrement)
 
 ### Assignment Operators
+
 - `=` (Assignment)
 - `+=` (Addition assignment)
 - `-=` (Subtraction assignment)
@@ -66,6 +68,7 @@ Sure! Here is a list of all the operators in JavaScript:
 - `^=` (Bitwise XOR assignment)
 
 ### Comparison Operators
+
 - `==` (Equal to)
 - `!=` (Not equal to)
 - `===` (Strict equal to)
@@ -76,11 +79,13 @@ Sure! Here is a list of all the operators in JavaScript:
 - `<=` (Less than or equal to)
 
 ### Logical Operators
+
 - `&&` (Logical AND)
 - `||` (Logical OR)
 - `!` (Logical NOT)
 
 ### Bitwise Operators
+
 - `&` (Bitwise AND)
 - `|` (Bitwise OR)
 - `^` (Bitwise XOR)
@@ -90,12 +95,15 @@ Sure! Here is a list of all the operators in JavaScript:
 - `>>>` (Zero-fill right shift)
 
 ### String Operators
+
 - `+` (Concatenation)
 
 ### Conditional (Ternary) Operator
+
 - `? :` (Conditional)
 
 ### Type Operators
+
 - `typeof`
 - `instanceof`
 - `in`
@@ -103,6 +111,7 @@ Sure! Here is a list of all the operators in JavaScript:
 - `delete`
 
 ### Other Operators
+
 - `,` (Comma operator)
 - `...` (Spread/rest operator)
 
@@ -124,20 +133,20 @@ Sure! Here is a list of all the operators in JavaScript:
    4. While Loop
    5. Do While Loop
 
-9.  Break & Continue
+9. Break & Continue
 
-   1. Break Keyword
-   2. Continue
+10. Break Keyword
+11. Continue
 
-10. Iteration
+12. Iteration
 
-11. String Iteration
-12. Array Iteration
-13. Object Iteration
-14. Set Iteration
-15. Map Iteration
+    1. String Iteration
+    2. Array Iteration
+    3. Object Iteration
+    4. Set Iteration
+    5. Map Iteration
 
-16. String
+13. String
 
     1. Escape Sequence
     2. String Concatenation
@@ -146,7 +155,7 @@ Sure! Here is a list of all the operators in JavaScript:
     5. String Index
     6. String Method
 
-17. Array
+14. Array
     1. Array Are Object
     2. Array Operation
     3. Array Destructure

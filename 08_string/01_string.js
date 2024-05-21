@@ -6,7 +6,7 @@ console.log("Single quotes");
 // Double quote
 console.log("Double quotes");
 
-// Backtick
+// Backtick (Recommended)
 console.log(`Backtick`);
 
 // Multiline string use backtick

@@ -2,10 +2,13 @@
 
 // Numbers
 
-// WHY
+// What
+// - Type conversion in JavaScript is the process of changing a value from one data type to another. This can happen automatically (called implicit conversion) or manually (called explicit conversion).
+
+// Why
 // - When we are fetching data from server sometimes data will have some numbers value. But the numbers are in string format for e.g. "999". At that time convert this to pure number 999 we need to use type conversion.
 
-// HOW
+// How
 // - Number(): Use this function to convert string formatted number to pure number "999" to 999.
 // - parseFloat(): Use this function to convert string formatted floating number to floating number e.g. "3.14" to 3.14
 // - parseInt(): Use this function to convert string formatted integer number to integer number e.g. "3.14" to 3 .

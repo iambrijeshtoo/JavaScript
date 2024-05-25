@@ -1,6 +1,6 @@
-// Splice Method
+// splice()
 
-// Q.What is splice method?
+// What
 // - It use to delete and insert elements in the array.
 //
 // Q.How to use splice method?

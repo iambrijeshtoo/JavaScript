@@ -1,7 +1,7 @@
 // from()
 
 // What
-// - To convert the value into array.
+// - To convert the single value into array.
 
 const myName = "Brijesh";
 console.log(Array.from(myName));

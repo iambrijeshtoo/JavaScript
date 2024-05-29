@@ -41,7 +41,7 @@
 - **Stack (like a stack of plates):** Very organized, you always add and remove items from the top. Great for small, simple tasks.
 - **Heap (like a toy box):** Less organized, you can add and remove items from anywhere. Great for bigger, more complex tasks where you need more space.
 
-Note
+## Note
 
 - Primitive datatype stored in stack.
 - When primitive datatype value stored inside stack memory. You will get the copy of the value.

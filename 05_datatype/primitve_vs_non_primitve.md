@@ -1,5 +1,3 @@
-JavaScript has several built-in data types that are used to represent different kinds of values. Here are the main data types in JavaScript:
-
 1. **Primitive Data Types:**
 
    - **Number**: Represents both integer and floating-point numbers.
@@ -14,11 +12,54 @@ JavaScript has several built-in data types that are used to represent different 
    - **Array**: Represents an ordered list of values, indexed by integers.
    - **Function**: Represents executable code that can be invoked or called.
 
-It's important to note that in JavaScript, primitive data types are passed by value, while complex data types (objects, arrays, functions) are passed by reference. This distinction can have implications for how values are copied and shared between variables.
+## Primitive Data Types (Immutable):
 
-Additionally, JavaScript is a dynamically typed language, which means that you don't explicitly specify the data type of a variable when declaring it. The interpreter determines the data type based on the value assigned to the variable.
+- Immutability: When you assign a primitive value to a variable, you're essentially creating a copy of that value in memory. If you try to modify the value later, JavaScript won't actually change the original value. Instead, it will create a new copy of the modified value and assign it to a new memory location.
+- That's why primitive datatype stored in stack memory.
 
-Here's an example of using different data types in JavaScript:
+```javascript
+let number = 10;
+
+console.log(number); // Output: 10
+
+number = number * 2; // Attempt to modify the value
+
+console.log(number); // Output: 10 (original value remains unchanged)
+```
+
+## Non-Primitive Data Types (Mutable and Immutable):
+
+- Mutability: These data types can be both mutable and immutable depending on the approach used.
+
+- Mutable: By default, non-primitive data types are mutable. This means that you can modify the contents of the data structure (like changing elements in an array or properties within an object) after it's created.
+
+- Immutable: However, you can achieve immutability with non-primitive data types by creating a new copy with the desired changes instead of modifying the original structure directly. Libraries like Immutable.js provide helper functions for creating immutable versions of common data structures.
+
+**Mutable Approach**
+
+```javascript
+let numbers = [1, 2, 3];
+
+numbers[0] = 10; // Modify the first element
+
+console.log(numbers); // Output: [10, 2, 3] (original array is changed)
+```
+
+**Immutable Approach:**
+
+```javascript
+let numbers = [1, 2, 3];
+let newNumbers = [...numbers, 4]; // Spread operator to create a copy and add 4
+
+console.log(numbers); // Output: [1, 2, 3] (original remains unchanged)
+console.log(newNumbers); // Output: [1, 2, 3, 4] (new array with modification)
+```
+
+## Note
+
+- It's important to note that in JavaScript, primitive data types are passed by value, while complex data types (objects, arrays, functions) are passed by reference. This distinction can have implications for how values are copied and shared between variables.
+
+- Additionally, JavaScript is a dynamically typed language, which means that you don't explicitly specify the data type of a variable when declaring it. The interpreter determines the data type based on the value assigned to the variable.
 
 ```javascript
 // Primitive data types
@@ -28,7 +69,7 @@ let isTrue = true; // Boolean
 let empty = null; // Null
 let notDefined; // Undefined
 
-// Complex data types
+// Non-Primitive data types
 let person = {
   // Object
   name: "Alice",
@@ -41,12 +82,4 @@ function greet(name) {
   // Function
   console.log("Hello, " + name + "!");
 }
-
-// Using symbols
-const idSymbol = Symbol("id");
-let user = {
-  [idSymbol]: 123,
-};
 ```
-
-These data types provide the foundation for representing and working with various kinds of values in JavaScript.

@@ -7,3 +7,14 @@
 - Inclusive: Think of "inclusive" as including everything. It means something is in or part of a range or group. Imagine a party invitation that says "Everyone is welcome!" - that's inclusive.
 
 - Exclusive: On the other hand, exclusive means something is not included. It's outside of a range or group. Think of a VIP club with a sign that says "Members Only" - that's exclusive.
+
+Can you explain me XXX in javascript in this format with simple language 
+
+What
+Why
+How 
+Syntax
+Example
+Note
+Pros
+Cons

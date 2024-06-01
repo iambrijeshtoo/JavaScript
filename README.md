@@ -35,9 +35,15 @@
    3. Assignment Operators
    4. Comparison Operators
    5. Logical Operators
-   6. Ternary Or Conditional Operator
+   6. Bitwise Operators
    7. Nullish Coalescing Operator
    8. Optional Chaining Operator
+   9. Ternary Or Conditional Operator
+   10. Unary Operator
+   11. `in` Operator
+   12. `new` Operator
+   13. `typeof` Operator
+   14. `instanceof` Operator
 
 7. Function
    1. Function Expression

@@ -66,14 +66,6 @@
 - Call
 - Apply
 - Bind
--
-### Type Operators
-
-- `typeof`
-- `instanceof`
-- `in`
-- `void`
-- `delete`
 
 ### Other Operators
 

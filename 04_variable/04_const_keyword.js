@@ -21,3 +21,4 @@ const constant = "value";
 // Can't be reassigned
 // const constant = "value1";
 // constant = "value2";
+

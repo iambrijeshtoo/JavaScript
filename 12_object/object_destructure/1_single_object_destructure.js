@@ -1,6 +1,6 @@
 // Single Object Destructure
 
-const object = {
+const myObject = {
   key1: "value1",
   key2: "value2",
   key3: "value3",
@@ -15,14 +15,20 @@ const object = {
 // const variable2 = object.key2;
 // const variable3 = object.key3;
 
-// Easily object destructure
+// Easy object destructure
 const {
-  customName: variable1, // Giving custom name using alias to the key
-  variable2,
-  variable3,
-  nestedObject: { customName1: key4, key5 }, // Accessing nested object which is property
-} = object;
+  key1,
+  key2,
+  key3,
+  key1: customNameForKey1, // Giving custom name using alias to the key
+  nestedObject: { key4, key5 }, // Accessing nested object which is property
+} = myObject;
+
+console.log(key1);
+console.log(key2);
+console.log(key3);
+console.log(customNameForKey1);
 
 // Create new object from the existing object use spread operator
-const { ...object1 } = object;
+const { ...object1 } = myObject;
 console.log(object1);

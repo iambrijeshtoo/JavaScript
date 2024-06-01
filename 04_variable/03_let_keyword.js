@@ -19,3 +19,5 @@ variable1 = "value2";
 // Can't be redeclare
 // let variable2 = "value1";
 // let variable2 = "value2";
+
+

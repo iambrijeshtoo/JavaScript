@@ -7,9 +7,9 @@
 // += Addition Assignment Operator
 // -= Subtraction Assignment Operator
 // *= Multiplication Assignment Operator
-// **= Exponentiation Assignment Operator
 // /= Division Assignment Operator
-// %= Reminder Assignment Operator
+// %= Modulus Assignment Operator
+// **= Exponentiation Assignment Operator
 
 // 2. Shift Assignment Operators:
 // <<= Left Shift Assignment Operator

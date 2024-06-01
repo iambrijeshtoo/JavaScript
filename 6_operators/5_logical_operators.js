@@ -4,13 +4,13 @@
 // || OR
 // ! NOT
 
-// Q. How AND works?
+// How AND works?
 // true && false = false
 // false && true = false
 // true && true = true
 // false && false = false
 
-// Q. How OR works?
+// How OR works?
 // true || false = true
 // false || true = true
 // true || true = true

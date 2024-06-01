@@ -26,6 +26,7 @@
    2. Type conversion
    3. NaN
    4. Unary operator
+   5. Symbol
 
 6. Operators
 
@@ -60,69 +61,6 @@
 - Apply
 - Bind
 -
-
-### Arithmetic Operators
-
-- `+` (Addition)
-- `-` (Subtraction)
-- `*` (Multiplication)
-- `/` (Division)
-- `%` (Modulus)
-- `**` (Exponentiation)
-- `++` (Increment)
-- `--` (Decrement)
-
-### Assignment Operators
-
-- `=` (Assignment)
-- `+=` (Addition assignment)
-- `-=` (Subtraction assignment)
-- `*=` (Multiplication assignment)
-- `/=` (Division assignment)
-- `%=` (Modulus assignment)
-- `**=` (Exponentiation assignment)
-- `<<=` (Left shift assignment)
-- `>>=` (Right shift assignment)
-- `>>>=` (Unsigned right shift assignment)
-- `&=` (Bitwise AND assignment)
-- `|=` (Bitwise OR assignment)
-- `^=` (Bitwise XOR assignment)
-
-### Comparison Operators
-
-- `==` (Equal to)
-- `!=` (Not equal to)
-- `===` (Strict equal to)
-- `!==` (Strict not equal to)
-- `>` (Greater than)
-- `<` (Less than)
-- `>=` (Greater than or equal to)
-- `<=` (Less than or equal to)
-
-### Logical Operators
-
-- `&&` (Logical AND)
-- `||` (Logical OR)
-- `!` (Logical NOT)
-
-### Bitwise Operators
-
-- `&` (Bitwise AND)
-- `|` (Bitwise OR)
-- `^` (Bitwise XOR)
-- `~` (Bitwise NOT)
-- `<<` (Left shift)
-- `>>` (Sign-propagating right shift)
-- `>>>` (Zero-fill right shift)
-
-### String Operators
-
-- `+` (Concatenation)
-
-### Conditional (Ternary) Operator
-
-- `? :` (Conditional)
-
 ### Type Operators
 
 - `typeof`

@@ -1,4 +1,0 @@
-// `new` Operator
-
-// What
-// -

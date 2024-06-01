@@ -23,11 +23,11 @@ myFunction(1, 2);
 // Printing function
 console.log(myFunction(1, 2));
 
-// Printing function name only
+// Passing the function's reference only
 console.log(myFunction);
 
 // Without return keyword
-// - If you create a function without the return and store that function inside the variable and check the value it will be undefined.
+// - If you create a function without the return and store that function inside the variable and check the value it will be undefined. Because the function doesn't returning the value.
 function myFunction(parameter1, parameter2) {
   let result = parameter1 + parameter2;
 }

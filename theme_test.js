@@ -46,3 +46,4 @@ class MyClass {}
 class MyClass {
   constructor(parameter) {}
 }
+

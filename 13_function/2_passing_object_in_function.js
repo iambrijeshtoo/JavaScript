@@ -1,6 +1,6 @@
-// Object with function
+// Passing Object In Function
 
-const user = {
+const myObject = {
   key1: "value1",
   key2: "value2",
 };
@@ -10,7 +10,7 @@ function handleObject(getObject) {
 }
 
 // Passing an object reference as a argument in the function.
-handleObject(user);
+handleObject(myObject);
 
 // Passing literally an object as a argument in the function.
 handleObject({

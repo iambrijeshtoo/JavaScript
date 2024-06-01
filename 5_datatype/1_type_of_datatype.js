@@ -28,7 +28,7 @@ let myBoolean2 = false;
 const mySymbol = Symbol();
 
 // Traditional Datatype: numbers, string & boolean
-// Standalone value: undefined, null, empty string `""`
+// Standalone value: undefined, null, empty string `""`, NaN
 
 // Undefined
 let myUndefined1 = undefined;

@@ -7,10 +7,10 @@
 // - Symbols are used to create unique identifiers, which can be used as property keys for object properties. They help prevent naming collisions and enable the creation of private object members.
 
 // How
-// - Symbols are created using the Symbol() function, optionally with a description as an argument. Each symbol value returned by Symbol() is guaranteed to be unique.
+// - Symbols are created using the Symbol() construction, optionally with a description as an argument. Each symbol value returned by Symbol() is guaranteed to be unique.
 
 // Syntax
-const symbolName = Symbol("Identifier value");
+const symbolName = Symbol("description argument");
 
 // Example
 // Create a car object

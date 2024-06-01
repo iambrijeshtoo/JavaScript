@@ -23,8 +23,8 @@
 5. Datatype
 
    1. Type of datatype
-   2. NaN
-   3. Datatype conversion
+   2. Type conversion
+   3. NaN
    4. Unary operator
 
 6. Operators

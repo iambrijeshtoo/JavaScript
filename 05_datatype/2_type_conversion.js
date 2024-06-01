@@ -9,9 +9,9 @@
 // - When we are fetching data from server sometimes data will have some numbers value. But the numbers are in string format for e.g. "999". At that time convert this to pure number 999 we need to use type conversion.
 
 // How
-// - Number(): Use this function to convert string formatted number to pure number "999" to 999.
-// - parseFloat(): Use this function to convert string formatted floating number to floating number e.g. "3.14" to 3.14
-// - parseInt(): Use this function to convert string formatted integer number to integer number e.g. "3.14" to 3 .
+// - Number(): Use this constructor to convert string formatted number to pure number "999" to 999.
+// - parseFloat(): Use this method to convert string formatted floating number to floating number e.g. "3.14" to 3.14
+// - parseInt(): Use this method to convert string formatted integer number to integer number e.g. "3.14" to 3 .
 
 // NOTE
 // "100" => 100
@@ -27,10 +27,11 @@
 console.log(parseFloat("3.14"));
 console.log(parseInt("3.14"));
 
-const variable1 = 100;
-const convertToNumber = Number(variable1);
-console.log(typeof convertToNumber);
+const myVariable = null;
+const convertToNumber = Number(myVariable);
+
 console.log(convertToNumber);
+console.log(typeof convertToNumber);
 
 // Strings
 
@@ -44,10 +45,11 @@ console.log(convertToNumber);
 // undefine => "undefine"
 
 // Example
-const variable2 = undefined;
-const convertToString = String(variable2);
-console.log(typeof convertToString);
+const myVariable2 = undefined;
+const convertToString = String(myVariable2);
+
 console.log(convertToString);
+console.log(typeof convertToString);
 
 // Boolean
 
@@ -60,7 +62,8 @@ console.log(convertToString);
 // undefine => false
 
 // Example
-const variable3 = 1;
-const convertToBoolean = Boolean(variable1);
-console.log(typeof convertToNumber);
+const myVariable3 = 1;
+const convertToBoolean = Boolean(myVariable);
+
 console.log(convertToNumber);
+console.log(typeof convertToNumber);

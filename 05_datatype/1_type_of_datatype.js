@@ -6,52 +6,56 @@
 // Primitive datatype
 
 // Number
-let int = 123;
-let float = 3.14;
-let double = 99.99;
-let scientificNumber = 10e2;
+let myInteger = 123;
+let myFloat = 3.14;
+let myDouble = 99.99;
+let myScientificNumber = 10e2;
+
 // NOTE: BigInt numbers can only perform operation with BigInt datatype
-let bigInt1 = BigInt(1000); // Creating BigInt number using function
-let bigInt2 = 1000n; // Creating BigInt number using `n` at the end of the number
+let myBigInt1 = BigInt(1000); // Creating BigInt number using BigInt() constructor
+let myBigInt2 = 1000n; // Creating BigInt number using `n` at the end of the number
 
 // String
-let string1 = `Backtick`;
-let string2 = "Single quote";
-let string3 = "Double quote";
+let myString1 = `Backtick`;
+let myString2 = "Single quote";
+let myString3 = "Double quote";
 
 // Boolean
-let boolean1 = true;
-let boolean2 = false;
-
-// Undefined
-let myUndefined1 = undefined;
-let myUndefined2; // Declared variable which doesn't assigned any value also has undefined value.
-
-// Null
-// NOTE
-// - Null is standalone value. To understand this let say you are creating weather application which give you the temperature of selected city. For any reason server unable to send you the temperature that means there is no temperature value. At that case weather app shouldn't show `0` on screen. Because 0 also refer as temperature value. At that time we use null to show there is actually no temperature and server are unable to fetch data of temperature.
-// - When check the typeof null it will show it is an object.
-let myNull = null;
-
-// Empty value
-let emptyValue = "";
+let myBoolean1 = true;
+let myBoolean2 = false;
 
 // Symbol
 const mySymbol = Symbol();
 
-// Complex Datatype
+// Traditional Datatype: numbers, string & boolean
+// Standalone value: undefined, null, empty string `""`
+
+// Undefined
+let myUndefined1 = undefined;
+let myUndefined2; // Declared variable which doesn't assigned any value yet also has undefined value.
+
+// Null
+// Note
+// - Null is standalone value. To understand this let say you are creating weather application which give you the temperature of selected city. For any reason server unable to send you the temperature that means there is no temperature value. At that case weather app shouldn't show `0` on screen. Because 0 also refer as temperature value. At that time we use null to show there is actually no temperature and server are unable to fetch data of temperature.
+// - WHEN CHECK THE TYPEOF NULL IT WILL SHOW IT IS AN OBJECT.
+let myNull = null;
+
+// Empty value
+let myEmptyValue = "";
+
+// Non-Primitive Data Types (Reference, Complex)
 
 // Object
-const object = {
+const myObject = {
   key1: "value1",
   key2: "value2",
   key3: "value3",
 };
 
 // Array
-let array = [value1, value2, value3];
+let myArray = [value1, value2, value3];
 
 // Function
-function functionName(parameter) {
+function myFunction(parameter) {
   return parameter;
 }

@@ -38,7 +38,28 @@
    7. Nullish Coalescing Operator
    8. Optional Chaining Operator
 
-Sure! Here is a list of all the operators in JavaScript:
+7. Function
+   1. Function Expression
+   2. Anonymous Function
+
+- Function Inside Function
+- Function Expression
+- Arrow Function
+- Function Hoisting
+- Function Lexical Scope
+- Function Scope Vs Block Scope
+- Default Parameter
+- Rest Parameter
+- Parameter Destructuring
+- Callback Function
+- Function Returning Function
+- Method
+- This Keyword
+- Window Object
+- Call
+- Apply
+- Bind
+-
 
 ### Arithmetic Operators
 
@@ -169,27 +190,8 @@ Sure! Here is a list of all the operators in JavaScript:
   - Object Destructure
   - Object Cloning
   - Optional Chaining
-- Function
-  - Function Inside Function
-  - Function Expression
-  - Arrow Function
-  - Function Hoisting
-  - Function Lexical Scope
-  - Function Scope Vs Block Scope
-  - Default Parameter
-  - Rest Parameter
-  - Parameter Destructuring
-  - Callback Function
-  - Function Returning Function
-- Method
-- This Keyword
-- Window Object
-- Call
-- Apply
-- Bind
--
 
-22. Object Oriented Programming
+1.  Object Oriented Programming
 
     1.  What Is Oops?
     2.  Class
@@ -201,7 +203,7 @@ Sure! Here is a list of all the operators in JavaScript:
     8.  Abstraction
     9.  Polymorphism
 
-23. Asynchronous JavaScript
+2.  Asynchronous JavaScript
     1.  Call back
         1.  Call back function
         2.  Call back hell

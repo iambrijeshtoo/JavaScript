@@ -1,6 +1,6 @@
 // `this` Keyword
 
-// Q. What is this keyword?
+// What
 // - In JavaScript, the this keyword refers to an object.
 
 // NOTE

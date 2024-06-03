@@ -1,7 +1,7 @@
 // Ternary or Conditional Operator
 
 // Syntax
-// const variableName = (condition) ? statement1 : statement2;
+// const variableName = (condition) ? true : false;
 
 // Example
 const age = 20;

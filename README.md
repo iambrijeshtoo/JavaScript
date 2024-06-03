@@ -45,7 +45,9 @@
    13. `typeof` Operator
    14. `instanceof` Operator
 
-7. Function
+7. Stack & Heap Memory
+
+8. Function
    1. Function Expression
    2. Anonymous Function
 
@@ -67,12 +69,7 @@
 - Apply
 - Bind
 
-### Other Operators
-
-- `,` (Comma operator)
-- `...` (Spread/rest operator)
-
-7. Condition Statement
+1. Condition Statement
 
    1. If statement
       1. Independent if statement
@@ -82,7 +79,7 @@
    4. Nested If Else Statement
    5. Switch Statement
 
-8. Loop
+2. Loop
 
    1. For Loop
    2. For In Loop
@@ -90,35 +87,35 @@
    4. While Loop
    5. Do While Loop
 
-9. Break & Continue
+3. Break & Continue
 
-10. Break Keyword
-11. Continue
+4. Break Keyword
+5. Continue
 
-12. Iteration
+6. Iteration
 
-    1. String Iteration
-    2. Array Iteration
-    3. Object Iteration
-    4. Set Iteration
-    5. Map Iteration
+   1. String Iteration
+   2. Array Iteration
+   3. Object Iteration
+   4. Set Iteration
+   5. Map Iteration
 
-13. String
+7. String
 
-    1. Escape Sequence
-    2. String Concatenation
-    3. String Template
-    4. String Conversion
-    5. String Index
-    6. String Method
+   1. Escape Sequence
+   2. String Concatenation
+   3. String Template
+   4. String Conversion
+   5. String Index
+   6. String Method
 
-14. Array
-    1. Array Are Object
-    2. Array Operation
-    3. Array Destructure
-    4. Array Iterate
-    5. Array's method
-       1. map()
+8. Array
+   1. Array Are Object
+   2. Array Operation
+   3. Array Destructure
+   4. Array Iterate
+   5. Array's method
+      1. map()
 
 - Objects
   - Object Iteration

@@ -12,7 +12,7 @@
 // - Rest Operator:
 //      - Captures a variable number of arguments passed to a function and handles them as an array within the function body.
 
-// Spread Operator Examples:
+// Examples
 
 // 1. Function Call with Array Elements (avoiding apply or loop)
 function sumNumbers(x, y) {

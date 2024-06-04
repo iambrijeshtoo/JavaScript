@@ -1,14 +1,14 @@
 // Do While Loop
 
-// SYNTAX
+// Syntax
 // Initialization
 // do {
 //  Code...
 // Increment/ Decrement
 // } while (condition)
 
-let variable = 0;
+let index = 11;
 do {
-  console.log(variable);
-  variable++;
-} while (variable <= 10);
+  console.log(index);
+  index++;
+} while (index <= 10);

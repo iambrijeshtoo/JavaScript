@@ -1,12 +1,12 @@
-// Topic: For loop
+// `for` loop
 
-// Q. What is for loop?
+// What
 // - A for loop in JavaScript is a programming construct that allows you to repeat a set of instructions a certain number of times. It's great for automating tasks that need to be done repeatedly.
 
-// Q. Why use for loop?
+// Why
 // - Imagine you have a task you need to do over and over again. Instead of writing the same code multiple times, a for loop helps you perform that task a specific number of times, making your code more efficient and easier to manage.
 
-// Q. How for loop work?
+// How
 // - Initialization: You start by defining a variable and giving it an initial value. This variable will keep track of the loop's progress.
 // - Condition: You specify a condition that, as long as it's true, the loop will continue to run. This condition is checked before every loop iteration.
 // - Iteration: After each iteration of the loop, the loop variable is updated according to a certain pattern.
@@ -22,9 +22,48 @@
 // }
 
 // Example
-for (let i = 1; i <= 5; i++) {
-  console.log(i);
+for (let index = 0; index <= 10; index++) {
+  console.log(index);
 }
 
-// Summary
-// - A for loop in JavaScript helps you repeat a set of instructions a specific number of times. You provide an initial value, a condition to check before each iteration, and an iteration pattern. The loop runs as long as the condition is true. It's a useful tool for automating repetitive tasks and making your code more efficient. Just ensure your loop's condition eventually becomes false to avoid infinite loops.
+for (let index = 0; index <= 10; index++) {
+  if (index === 5) {
+    console.log("This is number 5");
+  }
+  console.log(index);
+}
+
+for (let i = 1; i <= 10; i++) {
+  // console.log(`Outer loop: ${i}`);
+  for (let j = 1; j <= 10; j++) {
+    // console.log(`Inner loop: ${j}`);
+    console.log(`${i} * ${j} = ${i * j}`);
+  }
+}
+
+// For loop for array
+const myArray = [0, 1, 2, 3, 4, 5];
+console.log(myArray);
+
+for (let index = 0; index < myArray.length; index++) {
+  const element = myArray[index];
+  console.log(element);
+}
+
+// Break
+for (let index = 0; index <= 10; index++) {
+  if (index === 5) {
+    console.log("Number 5 detected");
+    break;
+  }
+  console.log(index);
+}
+
+// Continue
+for (let index = 0; index <= 10; index++) {
+  if (index === 5) {
+    console.log("Number 5 detected");
+    continue;
+  }
+  console.log(index);
+}

@@ -33,6 +33,29 @@ Cons
 | - It store data in linear form.     | - It store data in `key : value` form.                                |
 |                                     | - It has size property.                                               |
 
+# .map() VS .filter()
+
+| Feature                      | `filter`                                                        | `map`                                                                       |
+| ---------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Purpose**                  | Filter elements based on a condition                            | Transform elements and create a new array                                   |
+| **Callback function output** | `true` or `false` (includes/excludes)                           | A value to be included in the new array                                     |
+| **New array elements**       | Only elements for which `true` is returned                      | Transformed values from the callback function                               |
+| **Modifies original array**  | No                                                              | No (creates a new array)                                                    |
+| **Side effects**             | Can be used for actions within the loop (e.g., logging)         | May have side effects within the loop (e.g., modifying temporary variables) |
+| **Functional approach**      | More functional, focuses on filtering logic                     | More functional, focuses on transformation logic                            |
+| **Common use cases**         | - Finding specific elements                                     | - Doubling numbers                                                          |
+|                              | - Removing elements from an array                               | - Converting strings to uppercase                                           |
+|                              | - Selecting objects based on properties                         | - Creating a new array with specific calculations                           |
+| **Example (numbers array)**  | Filter even numbers                                             | Double each number                                                          |
+| **Callback function**        | `number % 2 === 0` (even)                                       | `number * 2` (double)                                                       |
+| **Chaining**                 | Can be chained with `map` for filtering and then transformation | Can be chained with `filter` for additional filtering after transformation  |
+
+**Additional Notes:**
+
+- Both `filter` and `map` are non-mutating methods, meaning they don't modify the original array. They create a new array with the filtered or transformed elements.
+- While `filter` is generally considered more functional due to its focus on filtering logic, `map` can also be used functionally when the transformations are pure (without side effects).
+- When choosing between `filter` and `map`, consider your desired outcome: filtering elements based on a condition (`filter`) or creating a new array with transformed elements (`map`).
+
 # Iteration
 
 1. For Iterating Array

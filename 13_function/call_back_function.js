@@ -40,6 +40,3 @@ fetchData(displayData);
 
 // Note
 // - Callbacks are fundamental in JavaScript, especially for asynchronous tasks. However, using too many nested callbacks can lead to complex and hard-to-read code. To handle asynchronous operations more elegantly, consider using Promises or Async/Await, which provide a more structured way to work with asynchronous code.
-
-// Summary
-// - A callback function is a function passed as an argument to another function, allowing you to control the sequence of actions in your code. They are crucial for managing asynchronous tasks and ensuring that specific code is executed only after a particular task is completed. To maintain readability, consider alternative solutions like Promises or Async/Await for complex asynchronous operations.

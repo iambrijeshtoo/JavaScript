@@ -24,23 +24,21 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const newNumbers = array.map((number) => number < 10);
 console.log(newNumbers);
 
-// EXAMPLE
-const array1 = [
-  {
-    key1: "value1",
-    key2: "value2",
-    key3: "value3",
-    sameKey: "same value",
-  },
-  {
-    key4: "value4",
-    key5: "value5",
-    key6: "value6",
-    sameKey: "same value",
-  },
+const books = [
+  { title: "Book One", genre: "Fiction", publish: 1981, edition: 2004 },
+  { title: "Book Two", genre: "Non-Fiction", publish: 1992, edition: 2008 },
+  { title: "Book Three", genre: "History", publish: 1999, edition: 2007 },
+  { title: "Book Four", genre: "Non-Fiction", publish: 1989, edition: 2010 },
+  { title: "Book Five", genre: "Science", publish: 2009, edition: 2014 },
+  { title: "Book Six", genre: "Fiction", publish: 1987, edition: 2010 },
+  { title: "Book Seven", genre: "History", publish: 1986, edition: 1996 },
+  { title: "Book Eight", genre: "Science", publish: 2011, edition: 2016 },
+  { title: "Book Nine", genre: "Non-Fiction", publish: 1981, edition: 1989 },
 ];
 
-const newArray3 = array1.map((object) => {
-  return object.sameKey;
-});
-console.log(newArray3);
+const fictionBook = books
+  .filter((book) => book.genre === "Fiction")
+  .filter((book) => book.edition > 2000)
+  .map((book) => book.edition + 1000);
+
+console.log(fictionBook);

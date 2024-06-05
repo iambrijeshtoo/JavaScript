@@ -56,6 +56,8 @@ array1.forEach((element) => {
 
 // Note
 // - The forEach() method accepts a callback function as its argument, which is invoked for each element in the array. The callback function takes three parameters: the current element being processed, the index of the current element, and the array or array-like object being iterated.
+
+
 // - The forEach() method in JavaScript doesn't return a value itself. Here's a breakdown of why:
 
 // Purpose of forEach()

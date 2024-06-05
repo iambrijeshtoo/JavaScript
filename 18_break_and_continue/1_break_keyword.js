@@ -1,8 +1,8 @@
 // Break Keyword
 
-for (let variable = 0; variable < 10; variable++) {
-  if (variable === 5) {
+for (let index = 0; index < 10; index++) {
+  if (index === 5) {
     break;
   }
-  console.log(variable);
+  console.log(index);
 }

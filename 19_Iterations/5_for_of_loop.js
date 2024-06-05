@@ -16,7 +16,6 @@
 // Note
 // - The order of iteration is guaranteed.
 // - Not recommended to use on object.
-// - Unlike traditional for loops, for...of doesn't give you access to the current index directly. If you need the index, you can use a combination of for...of with a traditional for loop (nested or with an index counter).
 // - The for...of loop doesn't modify the original iterable object. It iterates over a copy of the values.
 
 // Syntax

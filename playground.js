@@ -4,4 +4,8 @@ const myMap = new Map([
   ["key3", "value3"],
 ]);
 
-console.log(myMap);
+// console.log(myMap);
+
+for (const key of myMap) {
+  console.log(myMap[key]);
+}

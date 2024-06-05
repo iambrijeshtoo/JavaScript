@@ -1,8 +1,8 @@
 // Continue Keyword
 
-for (let num = 0; num < 10; num++) {
-  if (num === 5) {
+for (let index = 0; index < 10; index++) {
+  if (index === 5) {
     continue;
   }
-  console.log(num);
+  console.log(index);
 }

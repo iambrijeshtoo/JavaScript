@@ -33,6 +33,7 @@ for (let index = 0; index <= 10; index++) {
   console.log(index);
 }
 
+// Nested for loop
 for (let i = 1; i <= 10; i++) {
   // console.log(`Outer loop: ${i}`);
   for (let j = 1; j <= 10; j++) {

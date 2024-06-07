@@ -143,11 +143,3 @@
     2.  Asynchronous programming
         1.  setTimeout()
         2.  setInterval()
-
-### Advance Javascript Concept
-
-1. Asnyc
-2. Defer
-3. Module
-4. Scooping
-5. Hoisting

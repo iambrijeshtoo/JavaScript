@@ -13,19 +13,18 @@
 // Syntax
 
 // Single variable
+var variable = 0; // Not Recommended
 let variable1 = 1;
-let variable2 = 2;
+const variable2 = 2;
 
-// Multiple variable (same value)
-let variable3, variable4, variable5; // First declare then initialize
+// Multiple variable with same value
+// -First declare then initialize
+let variable3, variable4, variable5;
 variable3 = variable4 = variable5 = 1;
 
-// Multiple variable (different value)
+// Multiple variable with different value
+// - Declaring and initializing at the same time
+// - Use comma to separate the variable
 let variable6 = 1,
   variable7 = 2,
-  variable8 = 3; // Declaring and initializing at the same time
-
-// Pros
-// - Flexibility: Variables allow us to store different types of data, like numbers, text, or lists.
-// - Reusability: Once we store data in a variable, we can reuse it multiple times throughout our code.
-// - Readability: Giving meaningful names to variables makes our code easier to understand.
+  variable8 = 3;

@@ -4,7 +4,7 @@
 // - It can be initialized later.
 // - It can be redeclare.
 // - It can be reassigned.
-// - var keyword has been deprecated so it's not recommended to use.
+// - `var` keyword has been deprecated so it's not recommended to use.
 
 // Syntax
 // var variableName = value;

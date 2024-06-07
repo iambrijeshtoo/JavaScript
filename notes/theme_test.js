@@ -1,13 +1,8 @@
 // Variable
-var myVar = "Var";
-let myLet = "Let";
-const myConst = "Const";
+let variable = "variable";
 
-// Datatype
-let integer = 123;  
-let float = 3.14;
-let string = "Hello, world!";
-let character = "@";
+// Constant
+const constant = "constant";
 
 // Array
 let arrayNumbers = [1, 2, 3, 4, 5];
@@ -30,7 +25,7 @@ const myMap = new Map([
   ["key3", "value3"],
 ]);
 
-// Function
+// Function & Parameter
 function myFunction(parameter1, parameter2) {
   this.parameter1 = parameter1;
   this.parameter2 = parameter2;
@@ -46,4 +41,3 @@ class MyClass {}
 class MyClass {
   constructor(parameter) {}
 }
-

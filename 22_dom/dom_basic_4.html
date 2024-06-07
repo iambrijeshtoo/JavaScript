@@ -21,12 +21,12 @@
     addLanguage("TypeScript");
 
     // Recommended
-    function addOptimizeLanguage(languageName) {
+    function addLanguageWithOptimizeWay(languageName) {
       const li = document.createElement("li");
       li.appendChild(document.createTextNode(languageName));
       document.querySelector(".language").appendChild(li);
     }
-    addOptimizeLanguage("Go-Lang");
+    addLanguageWithOptimizeWay("Go-Lang");
 
     // Editing element
     const secondLanguage = document.querySelector("li:nth-child(2)");

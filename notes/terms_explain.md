@@ -122,10 +122,6 @@ Function == Method == Operations == Behaviors
 
 # Top Monospace Font
 
-1. Fira Code
-2. Source Code Pro
-3. JetBrains Mono
-4. Cascadia Code
-5. Hack
-6. Ubuntu Mono
-7. Monaspace
+1. JetBrains Mono
+2. Fira Code
+3. Source Code Pro

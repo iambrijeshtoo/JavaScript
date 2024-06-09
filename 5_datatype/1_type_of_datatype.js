@@ -2,37 +2,35 @@
 
 // Note
 // - JavaScript is dynamic language so that we don't need to specify each and every datatype. It will dynamically set the datatype according the the variable's value.
+// - Note that undefined, null, empty string `""` and NaN known as Standalone value.
 
 // Primitive datatype
 
 // Number
-let myInteger = 123;
-let myFloat = 3.14;
-let myDouble = 99.99;
-let myScientificNumber = 10e2;
+let integer = 123;
+let float = 3.14;
+let double = 99.99;
+let scientificNumber = 10e2;
 
 // NOTE: BigInt numbers can only perform operation with BigInt datatype
-let myBigInt1 = BigInt(1000); // Creating BigInt number using BigInt() constructor
-let myBigInt2 = 1000n; // Creating BigInt number using `n` at the end of the number
+let bigInt1 = BigInt(1000); // Creating BigInt number using BigInt() constructor
+let bigInt2 = 1000n; // Creating BigInt number using `n` at the end of the number
 
 // String
-let myString1 = `Backtick`;
-let myString2 = "Single quote";
-let myString3 = "Double quote";
+let string1 = `Backtick`;
+let string2 = "Single quote";
+let string3 = "Double quote";
 
 // Boolean
-let myBoolean1 = true;
-let myBoolean2 = false;
+let boolean1 = true;
+let boolean2 = false;
 
 // Symbol
-const mySymbol = Symbol();
-
-// Traditional Datatype: numbers, string & boolean
-// Standalone value: undefined, null, empty string `""`, NaN
+const symbol = Symbol();
 
 // Undefined
-let myUndefined1 = undefined;
-let myUndefined2; // Declared variable which doesn't assigned any value yet also has undefined value.
+let undefined1 = undefined;
+let undefined2; // Declared variable which doesn't assigned any value yet also has undefined value.
 
 // Null
 // Note
@@ -40,20 +38,17 @@ let myUndefined2; // Declared variable which doesn't assigned any value yet also
 // - WHEN CHECK THE TYPEOF NULL IT WILL SHOW IT IS AN OBJECT.
 let myNull = null;
 
-// Empty value
-let myEmptyValue = "";
-
 // Non-Primitive Data Types (Reference, Complex)
 
 // Object
-const myObject = {
+const object = {
   key1: "value1",
   key2: "value2",
   key3: "value3",
 };
 
 // Array
-let myArray = [value1, value2, value3];
+const array = [value1, value2, value3];
 
 // Function
 function myFunction(parameter) {

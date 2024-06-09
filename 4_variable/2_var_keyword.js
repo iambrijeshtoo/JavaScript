@@ -1,10 +1,11 @@
 // var Keyword
 
 // Note
+// - `var` keyword has been deprecated so it's not recommended to use.
 // - It can be initialized later.
 // - It can be redeclare.
 // - It can be reassigned.
-// - `var` keyword has been deprecated so it's not recommended to use.
+// - It has global scope.
 
 // Syntax
 // var variableName = value;

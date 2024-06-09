@@ -13,7 +13,9 @@
 // - parseFloat(): Use this method to convert string formatted floating number to floating number e.g. "3.14" to 3.14
 // - parseInt(): Use this method to convert string formatted integer number to integer number e.g. "3.14" to 3 .
 
-// NOTE
+// Note
+
+// Numbers
 // "100" => 100
 // "abc" => NaN
 // "100abc" => NaN

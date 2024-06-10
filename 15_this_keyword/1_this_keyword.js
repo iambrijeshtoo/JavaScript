@@ -4,59 +4,80 @@
 // - In JavaScript, the this keyword refers to an current context.
 
 // Note
-// - The this keyword refers to different objects depending on how it is used:
-// 1. Alone -> Global object
-// 2. In a object method -> object
-// 3. In a function -> Global object
-// 4. In a function with strict mode ("use strict") -> undefined
-// - In an event, this refers to the element that received the event.
-// - Methods like call(), apply(), and bind() can refer this to any object.
+// The this keyword refers to different objects depending on how it is used:
+// 5. Arrow function and `this` keyword (Not Recommended) -> See the code example below
+// 6. In a function with strict mode ("use strict") -> undefined
+// TODO: In an event, this refers to the element that received the event.
+// TODO: Methods like call(), apply(), and bind() can refer this to any object.
 
-// 1. Alone -> Global object
+// 1. this -> Alone -> Global object
 console.log(this);
 
-// 2. In a object method -> object
+// Regular function & `this` keyword
+
+// 2. this -> In object method (regular function) -> Current Object
 const object = {
-  key1: "Value1",
-  key2: "Value2",
-  key3: function () {
-    console.log(this.key1);
+  key: "value",
+  method: function () {
+    console.log(this);
+    console.log(this.key);
   },
 };
-console.log(object.key3());
+console.log(object.method());
 
-// 3. In a function -> Global object
-function iAmFunction() {
+// 3. this -> In regular function -> Global object
+function regularFunction() {
   return console.log(this);
 }
+console.log(regularFunction());
 
-console.log(iAmFunction());
-
-// 4. Function inside function -> Global object
-function iAmOutsideFunction() {
-  function iAmInsideFunction() {
+// 4. this -> Function inside function -> Global object
+function outerRegularFunction() {
+  function innerRegularFunction() {
     return console.log(this);
   }
-  console.log(iAmInsideFunction());
+  console.log(innerRegularFunction());
 }
-console.log(iAmOutsideFunction());
+console.log(outerRegularFunction());
 
-// 5. Arrow function and this keyword
-// - Arrow functions have a different behavior with this. They inherit the this value from the enclosing scope where they are defined, not from how they are called.
+// Arrow function & `this` keyword
 
-// Defined in the Global Scope -> Global object
+// Note
+// - Never use the arrow function inside method or constructor.
+
+// 5. this -> In object method (arrow function) -> Global object
+const object1 = {
+  key: "value",
+  method: () => {
+    return console.log(this);
+  },
+};
+console.log(object1.method());
+
+// 6. this -> In arrow function -> Global object
 const arrowFunction = () => {
   return console.log(this);
 };
 console.log(arrowFunction());
 
-// Defined Inside a Function or Object
-const object1 = {
-  key1: "value1",
-  key2: "value2",
-  key3: () => {
+// 7. this -> Arrow function inside arrow function -> Global object
+const outerArrowFunction = () => {
+  const innerArrowFunction = () => {
     console.log(this);
+  };
+  console.log(innerArrowFunction());
+};
+console.log(outerArrowFunction());
+
+// If you are thinking that. If `this` keyword is always refer to global object. Why can't we just rap the object around it. Then it will sure stop referring to global object.
+
+const outerObject = {
+  key1: "value",
+  innerObject: {
+    arrowFunction: () => {
+      console.log(this.key1);
+    },
   },
 };
-
-console.log(object1.key3());
+console.log(outerObject.innerObject.arrowFunction());
+// `this` just doesn't care. It won't show the key1's -> va lue.

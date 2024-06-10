@@ -1,5 +1,9 @@
-// console.log(a);
-// var a = 10;
-
-console.log(b);
-let b = 10;
+// TODO: This example is connected to the closer concept which is the video number - 49. 
+// function outerRegularFunction() {
+//   const variable = "value";
+//   function innerRegularFunction() {
+//     console.log(this.variable);
+//   }
+//   console.log(innerRegularFunction());
+// }
+// console.log(outerRegularFunction());

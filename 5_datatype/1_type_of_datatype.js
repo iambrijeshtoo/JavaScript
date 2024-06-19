@@ -2,7 +2,7 @@
 
 // Note
 // - JavaScript is dynamic language so that we don't need to specify each and every datatype. It will dynamically set the datatype according the the variable's value.
-// - Note that undefined, null, empty string `""` and NaN known as Standalone value.
+// - Standalone value: undefined, null, empty string `""`, NaN
 
 // Primitive datatype
 
@@ -48,7 +48,7 @@ const object = {
 };
 
 // Array
-const array = [value1, value2, value3];
+const array = [1, 2, 3, 4, 5];
 
 // Function
 function myFunction(parameter) {

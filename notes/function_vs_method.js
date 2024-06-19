@@ -32,3 +32,4 @@ class Person {
 
 let person1 = new Person("John");
 person1.greet();
+

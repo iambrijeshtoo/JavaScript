@@ -127,9 +127,3 @@ Function == Method == Operations == Behaviors
 3. Snake Case: hello_world
 4. Kebab Case: hello-world
 5. Upper Snake Case: HELLO_WORLD
-
-# Top Monospace Font
-
-1. JetBrains Mono
-2. Fira Code
-3. Source Code Pro

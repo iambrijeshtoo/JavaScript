@@ -1,10 +1,10 @@
 // console.table()
 
 // What
-// - This method is same as a console.log() but it will accept variable as a array and print their output in table format in terminal.
+// - This method is same as a console.log() but it will accept variable as a array and print their output in table format.
 
 // Syntax
-// console.table([variableName, variableName, variableName]);
+// console.table([variable, variable, variable]);
 
 const variable1 = 1;
 const variable2 = 2;

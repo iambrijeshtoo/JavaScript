@@ -22,11 +22,10 @@
 
 5. Datatype
 
-   1. Type of datatype
-   2. Type conversion
+   1. Types Of Datatype
+   2. Symbol
    3. NaN
-   4. Unary operator
-   5. Symbol
+   4. Type Conversion
 
 6. Operators
 

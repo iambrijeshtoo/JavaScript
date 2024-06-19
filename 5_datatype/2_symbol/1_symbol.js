@@ -13,25 +13,23 @@
 const symbolName = Symbol("description argument");
 
 // Example
-// Create a car object
 const car = {
-  make: "Toyota",
-  model: "Corolla",
-  year: 2020,
+  make: "BMW",
+  model: "M3 GTR",
+  year: 2005,
 };
 
 // Create a unique symbol for the identifier
 const carId = Symbol("id");
 
 // Add the identifier to the car using the symbol
-car[carId] = "12345";
+car[carId] = "Legendary Car";
 
 // Access the symbol property
-console.log(car[carId]); // Output: '12345'
+console.log(car[carId]);
 
 // Log the car object
 console.log(car);
-// Output: { make: 'Toyota', model: 'Corolla', year: 2020 }
 
 // Note
 // - Symbol doesn't use `new` operator. Because it's an primitive datatype. Primitive datatype doesn't required the `new` operator. Only Object, Array and Function need it.

@@ -16,9 +16,13 @@
 
 // const arrowFunction = () => {};
 
-const myVariable = function myFunction(parameter) {
-  console.log(parameter);
-  return;
+"use strict";
+
+const object = {
+  key: "value",
+  method: function () {
+    console.log(this.key);
+  },
 };
 
-myVariable("hello");
+console.log(object.method());

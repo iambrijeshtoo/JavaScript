@@ -112,6 +112,14 @@ Function == Method == Operations == Behaviors
 - Function: The actual recipe with all the instructions (the function code).
 - Function Reference: The note that says "Cake Recipe" (a variable holding the function's location in memory).
 
+# What is Method?
+
+- Functions that are properties of an object and usually act on the object.
+
+# What is Constructors?
+
+- Functions used to create new objects.
+
 # Types of Naming Convention
 
 1. Camel Case: helloWorld

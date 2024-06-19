@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["Brijesh", "Chavda", "Eich", "iambrijeshtoo", "Monaspace"],
+  "cSpell.words": [
+    "Brijesh",
+    "chaiaurcode",
+    "Chavda",
+    "Eich",
+    "iambrijeshtoo",
+    "Monaspace"
+  ],
   "editor.tokenColorCustomizations": {
     "comments": "",
     "textMateRules": []

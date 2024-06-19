@@ -16,13 +16,10 @@
 
 // const arrowFunction = () => {};
 
-"use strict";
+let number = 10;
 
-const object = {
-  key: "value",
-  method: function () {
-    console.log(this.key);
-  },
-};
+console.log(number); // Output: 10
 
-console.log(object.method());
+number = number * 2; // Attempt to modify the value
+
+console.log(number);

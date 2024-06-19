@@ -26,6 +26,7 @@
    2. Symbol
    3. NaN
    4. Type Conversion
+   5. Primitive & Non-Primitive Datatype
 
 6. Operators
 

@@ -15,7 +15,6 @@ let division = 0 / 0; // This division results in NaN
 console.log(division); // Output: NaN
 
 // Note
-
 // NaN is Number (But Short Of)
 // - In JavaScript, typeof NaN returns "number" even though it represents "Not a Number."
 // - This is because NaN is a special numeric value used to indicate an invalid result.
@@ -35,7 +34,7 @@ console.log(typeof result); // Output: "number"
 console.log(result === NaN); // Output: false
 console.log(result !== NaN); // Output: true
 
-// How to Handle NaN (Recommended)
+// How to Handle NaN? (Recommended)
 console.log(isNaN(result)); // Output: true
 console.log(Number.isNaN(result)); // Output: true
 

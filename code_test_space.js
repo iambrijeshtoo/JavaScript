@@ -8,7 +8,17 @@
 // }
 // console.log(outerRegularFunction());
 
-const num = 1
-if (num) {
-    console.log("hey");
-}
+// const regularFunctionExpression = function () {
+//   console.log(arguments);
+// };
+
+// regularFunctionExpression("hey");
+
+// const arrowFunction = () => {};
+
+const myVariable = function myFunction(parameter) {
+  console.log(parameter);
+  return;
+};
+
+myVariable("hello");

@@ -80,4 +80,4 @@ const outerObject = {
   },
 };
 console.log(outerObject.innerObject.arrowFunction());
-// `this` just doesn't care. It won't show the key1's -> va lue.
+// `this` just doesn't care. It won't show the key1's -> value.

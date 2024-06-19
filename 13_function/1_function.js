@@ -11,6 +11,7 @@
 // - When argument doesn't pass it will take value as a undefined (In other word empty function return undefine).
 // - functionName -> Reference (function definition)
 // - functionName() -> Execution (Calling)
+// - If you use {}, you need to use return keyword for getting value form the function.
 
 // Example
 function myFunction(parameter1, parameter2) {

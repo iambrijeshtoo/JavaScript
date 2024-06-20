@@ -126,15 +126,18 @@
 
 1.  Object Oriented Programming
 
-    1.  What Is Oops?
-    2.  Class
-    3.  Constructor
-    4.  Class Method
-    5.  Factory Function
-    6.  Inheritance
-    7.  Encapsulation
-    8.  Abstraction
-    9.  Polymorphism
+    1.  Object
+    2.  Constructor Function
+    3.  `new` keyword
+    4.  What Is Oops?
+    5.  Class
+    6.  Constructor
+    7.  Class Method
+    8.  Factory Function
+    9.  Inheritance
+    10. Encapsulation
+    11. Abstraction
+    12. Polymorphism
 
 2.  Asynchronous JavaScript
     1.  Call back

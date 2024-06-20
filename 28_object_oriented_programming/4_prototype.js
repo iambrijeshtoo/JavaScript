@@ -1,6 +1,10 @@
-// Prototype
+// Prototype (Better to call Prototype Object)
 
 // Inheritance: In JavaScript is a mechanism that allows one object to acquire properties and methods of another object. This is primarily achieved through the prototype chain.
+
+// Prototype: In JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification), that is either null or references another object. That object is called “a prototype”:
+
+// Prototype Inheritance: When we read a property from object, and it’s missing, JavaScript automatically takes it from the prototype. In programming, this is called “prototypal inheritance”.
 
 // What
 // - Prototype is object.
@@ -56,5 +60,5 @@ regularFunction.prototype.printMethod = function () {
   console.log(this.parameter);
 };
 
-const object1 = regularFunction("argument");
-const object2 = regularFunction("argument");
+const object1 = new regularFunction("argument");
+const object2 = new regularFunction("argument");

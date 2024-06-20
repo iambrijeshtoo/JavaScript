@@ -146,3 +146,9 @@
     2.  Asynchronous programming
         1.  setTimeout()
         2.  setInterval()
+
+
+<!-- OOP -->
+1. Literal Object 
+2. Constructor Function
+3. 

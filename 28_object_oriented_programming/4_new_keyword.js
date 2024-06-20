@@ -1,9 +1,11 @@
 // `new` Keyword
 
-// What is `new` Keyword?
+// Object === Instance === Instance Object
+
+// What
 // - In JavaScript, the new keyword is used to create an instance of an object or to invoke a constructor function.
 
-// Why we need `new` keyword?
+// Why
 // - If you create a new instance without the `new` keyword it will update the value of previously created instance.
 
 // How the `new` keyword work?
@@ -14,7 +16,7 @@
 // 2. Binds the newly created object as the `this` keyword within the constructor function.
 // - Sets the prototype of the newly created object to the prototype property of the constructor function.
 // - Executes the constructor function, which initializes the newly created object with properties and methods.
-// - Returns the newly created object.  
+// - Returns the newly created object.
 
 function User(username, userID, userEmail) {
   this.username = username;
@@ -27,6 +29,7 @@ function User(username, userID, userEmail) {
   return this;
 }
 
+// Try this without `new` keyword
 const userOne = new User("user1", "123", "abc@xyz.com");
 const userTwo = new User("user2", "456", "efg@xyz.com");
 

@@ -1,6 +1,10 @@
 // Constructor Function
 
-// What is Construction Function?
+// Backstory
+// - In other programming language like C++ and Java.
+// - We have to create a class then inside the class we need to declare constructor after that we can create an object (Instance/ Instance Object).
+
+// What
 // - Yes, in JavaScript, you can create constructor functions without using the class keyword or the constructor keyword. Instead, you can define a regular function and manually assign properties and methods to the newly created object using the this keyword.
 
 function ConstructorFunction(parameter1, parameter2) {
@@ -17,7 +21,5 @@ function ConstructorFunction(parameter1, parameter2) {
 }
 
 // Creating new instance
-const object = new ConstructorFunction("value1", "value2");
-// console.log(object);
-
-
+const instanceObject = new ConstructorFunction("argument1", "argument2");
+console.log(instanceObject);

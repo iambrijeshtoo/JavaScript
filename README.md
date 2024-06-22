@@ -147,8 +147,22 @@
         1.  setTimeout()
         2.  setInterval()
 
-
 <!-- OOP -->
-1. Literal Object 
+
+1. Literal Object
 2. Constructor Function
-3. 
+
+# Monospace Font
+
+1. MonoLisa
+2. Fira Mono
+3. Cascadia Code
+4. JetBrains Mono
+5. Commit Mono
+
+# Theme - Pitch Dark Background
+
+1. Ayu - Dark
+2. Night Owl
+3. Noctis - Obscuro
+4. Monokai Pro - Spectrum

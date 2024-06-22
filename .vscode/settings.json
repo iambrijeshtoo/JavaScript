@@ -5,7 +5,10 @@
     "Chavda",
     "Eich",
     "iambrijeshtoo",
-    "Monaspace"
+    "Monaspace",
+    "Monokai",
+    "Noctis",
+    "Obscuro"
   ],
   "editor.tokenColorCustomizations": {
     "comments": "",

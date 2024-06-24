@@ -4,11 +4,6 @@
 - YouTube Channel: [Chai Aur Code](https://www.youtube.com/@chaiaurcode)
 - React Playlist: [Chai Aur JavaScript](https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&si=z4Qr3tOcQ2Qek2Yx)
 
-# Progress
-
-- Completed: 2 Month
-- Hours: 4-6 Hours Daily
-
 # Table Of Content
 
 1. Comment

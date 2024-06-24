@@ -1,9 +1,13 @@
 # Acknowledgements
 
 - Instructor: [Hitesh Choudhary](https://github.com/hiteshchoudhary)
-- YouTube channel: [Chai Aur Code](https://www.youtube.com/@chaiaurcode)
+- YouTube Channel: [Chai Aur Code](https://www.youtube.com/@chaiaurcode)
 - React Playlist: [Chai Aur JavaScript](https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&si=z4Qr3tOcQ2Qek2Yx)
 
+# Progress
+
+- Completed: 2 Month
+- Hours: 4-6 Hours Daily
 
 # Table Of Content
 
@@ -173,3 +177,20 @@
 2. Night Owl
 3. Noctis - Obscuro
 4. Ayu - Dark
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

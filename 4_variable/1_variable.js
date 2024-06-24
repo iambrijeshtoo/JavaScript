@@ -11,14 +11,13 @@
 // - `var` keyword has been deprecated so it's not recommended to use. Only use `let` and `const`.
 
 // Syntax
-
 // Single variable
 var variable = 0; // Not Recommended
 let variable1 = 1;
 const variable2 = 2;
 
 // Multiple variable with same value
-// -First declare then initialize
+// - First declare then initialize
 let variable3, variable4, variable5;
 variable3 = variable4 = variable5 = 1;
 

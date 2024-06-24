@@ -1,4 +1,11 @@
-# Javascript
+# Acknowledgements
+
+- Instructor: [Hitesh Choudhary](https://github.com/hiteshchoudhary)
+- YouTube channel: [Chai Aur Code](https://www.youtube.com/@chaiaurcode)
+- React Playlist: [Chai Aur JavaScript](https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&si=z4Qr3tOcQ2Qek2Yx)
+
+
+# Table Of Content
 
 1. Comment
 
@@ -156,13 +163,13 @@
 
 1. MonoLisa
 2. Fira Mono
-3. Cascadia Code
-4. JetBrains Mono
-5. Commit Mono
+3. Commit Mono
+4. Cascadia Code
+5. JetBrains Mono
 
 # Theme - Pitch Dark Background
 
-1. Ayu - Dark
+1. Monokai Night
 2. Night Owl
 3. Noctis - Obscuro
-4. Monokai Pro - Spectrum
+4. Ayu - Dark

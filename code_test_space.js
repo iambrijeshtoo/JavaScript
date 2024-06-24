@@ -16,10 +16,10 @@
 
 // const arrowFunction = () => {};
 
-let number = 10;
+function solution(string) {
+  let reversedString = string.split("").reverse().join("");
 
-console.log(number); // Output: 10
+  return reversedString;
+}
 
-number = number * 2; // Attempt to modify the value
-
-console.log(number);
+console.log(solution("world"));

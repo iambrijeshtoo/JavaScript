@@ -8,6 +8,7 @@
 // Why
 // - It can be useful for generic object property iteration, especially when you need to access property names and values for various purposes.
 // - It can simplify looping through object properties without requiring manual property access by name.
+
 // How
 // - It works by cycling through the enumerable properties of an object, one by one.
 // - The loop body executes for each property, providing you with the property name (prop) in each iteration.

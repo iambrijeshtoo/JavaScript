@@ -17,17 +17,6 @@
 // - Undefined: Represents a variable that has not been assigned a value.
 // - Null: Represents a variable that has been explicitly assigned a value of null.
 
-// Undefined
-// - You can assign literally a value as a `undefined`
-let undefined1 = undefined;
-// - Declared variable which doesn't assigned any value yet also has undefined as a value.
-let undefined2;
-
-// Null
-// - Null is standalone value. To understand this let say you are creating weather application which give you the temperature of selected city. For any reason server unable to send you the temperature that means there is no temperature value. At that case weather app shouldn't show `0` on screen. Because 0 also refer as temperature value. At that time we use null to show there is actually no temperature and server are unable to fetch data of temperature.
-// - WHEN CHECK THE TYPEOF NULL IT WILL SHOW IT IS AN OBJECT.
-let myNull = null;
-
 // Non-Primitive Data Types (Reference, Complex)
 
 // Object

@@ -28,9 +28,19 @@
 
 5. Datatype
 
-   1. Types Of Datatype
-   2. Symbol
-   3. NaN
+   1. Primitive Data Type
+      1. Number
+      2. String
+      3. Boolean
+      4. Symbol
+   2. Non-Primitive Data Type
+      1. Object
+      2. Array
+      3. Function
+   3. Stand Alone Values
+      1. NaN
+      2. Undefined
+      3. Null
    4. Type Conversion
    5. Primitive & Non-Primitive Datatype
 
@@ -160,32 +170,24 @@
 
 # Monospace Font
 
-1. MonoLisa
-2. Fira Mono
+1. Fira Mono Light
+2. JetBrains Mono ExtraLight
 3. Commit Mono
-4. Cascadia Code
-5. JetBrains Mono
+4. Fira Mono
+5. Monaspace
+6. MonoLisa
+7. Source Code Pro
+8. Cascadia Code
+9. JetBrains Mono
+10. Maple Mono
 
 # Theme - Pitch Dark Background
 
-1. Monokai Night
-2. Night Owl
-3. Noctis - Obscuro
-4. Ayu - Dark
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. Bluloco
+2. Dracula
+3. Github dark
+4. One Dark Mono
+5. Ayu - Dark
+6. Noctis - Obscuro
+7. Monokai Night
+8. Night Owl

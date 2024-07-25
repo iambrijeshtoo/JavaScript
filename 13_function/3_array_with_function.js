@@ -6,7 +6,7 @@ function handleArray(getArray) {
   return getArray[1];
 }
 
-// // Passing an array reference as a argument in the function.
+// Passing an array reference as a argument in the function.
 console.log(handleArray(myArray));
 
 // Passing literally an array as a argument in the function.

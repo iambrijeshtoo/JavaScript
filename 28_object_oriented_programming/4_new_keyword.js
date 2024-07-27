@@ -1,6 +1,6 @@
 // `new` Keyword
 
-// Object === Instance === Instance Object
+// Object === Instance
 
 // What
 // - In JavaScript, the new keyword is used to create an instance of an object or to invoke a constructor function.

@@ -16,11 +16,16 @@
 
 // const arrowFunction = () => {};
 
-function solution(string) {
-  let reversedString = string.split("").reverse().join("");
+// const promise1 = new Promise(function (resolve, reject) {
+//   // Do async task
+//   // Database call, cryptography, network
 
-  return reversedString;
-}
+//   setTimeout(function () {
+//     console.log("Async task is complete");
+//     // resolve();
+//   }, 1000);
+// });
 
-console.log(solution("world"));
+// // promise1;
+
 

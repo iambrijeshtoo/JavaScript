@@ -1,12 +1,42 @@
 // Prototype (Better to call Prototype Object)
 
+// Research
+// - How javascript add hidden property which is [[Prototype]]. To my object?
+
 // What
 
-// Inheritance: In JavaScript is a mechanism that allows one object to acquire properties and methods of another object.
+// Inheritance
+// - Concept: A mechanism where a new object (child) acquires properties and methods from an existing object (parent).
+// - Purpose: Code reuse and creating hierarchical relationships between objects.
+// - Mechanism: In JavaScript, primarily achieved through the prototype chain.
 
-// Prototype: In JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification), that is either null or references another object. That object is called “a prototype”:
+// __proto__
+// - Objects have a special hidden property which is __proto__
+// - This will be either null or references another object.
+
+// Prototype
+// - The referred object in the __proto__ property is known as prototype.
+
+// Prototype Chain
+// - Mechanism: A linked list of objects where each object inherits properties and methods from its prototype.
+// - Structure: Every object has a __proto__ property pointing to its prototype.
+// - Process: When a property is accessed on an object, the JavaScript engine first checks the object itself, then its prototype, and so on until the end of the chain or the property is found.
 
 // Prototype Inheritance: When we read a property from object, and it’s missing, JavaScript automatically takes it from the prototype. In programming, this is called “prototypal inheritance”.
+
+// parentObject is prototype.
+const parentObject = {
+  name: "Parent",
+};
+
+// __proto__ is the hidden property in childObject that store the parent object.
+const childObject = {
+  __proto__: parentObject,
+  name: "Child",
+};
+
+console.log(childObject.name);
+console.log(childObject.__proto__.name);
 
 // Why
 // - The prototype system allows JavaScript to implement inheritance and to share properties and methods across instances.

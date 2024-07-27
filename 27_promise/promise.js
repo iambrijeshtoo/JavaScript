@@ -1,3 +1,32 @@
+// Promise
+
+// What
+// - A Promise in JavaScript is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value.
+// -  It's a way to handle asynchronous code in a more structured and readable way than traditional callbacks.
+
+// Why
+// - Improved code readability: Promises help to avoid callback hell, making code more maintainable.
+// - Error handling: Provides a structured way to handle errors in asynchronous operations.
+// - Chaining: Allows for sequential execution of asynchronous operations.
+
+// How
+// - A Promise can be in one of three states:
+// - Pending: Initial state, neither fulfilled nor rejected.
+// - Fulfilled: The operation completed successfully.
+// - Rejected: The operation failed.
+// - You create a Promise using the Promise constructor, which takes an executor function as an argument. The executor function receives two functions: resolve and reject. You call resolve when the operation is successful, passing the result as an argument. You call reject when the operation fails, passing the error as an argument.
+
+// Syntax
+// const promise = new Promise((resolve, reject) => {
+//   // Asynchronous operation here
+//   if (/* condition for success */) {
+//     resolve(value);
+//   } else {
+//     reject(error);
+//   }
+// });
+
+// Example: 1
 const promise1 = new Promise(function (resolve, reject) {
   // Do async task
   // Database call, cryptography, network

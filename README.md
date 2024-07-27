@@ -156,12 +156,12 @@
     12. Polymorphism
 
 2.  Asynchronous JavaScript
-    1.  Call back
+    1.  Asynchronous Operations
+    2.  setTimeout & setInterval
+    3.  Call back
         1.  Call back function
         2.  Call back hell
-    2.  Asynchronous programming
-        1.  setTimeout()
-        2.  setInterval()
+    4.  Promise
 
 <!-- OOP -->
 

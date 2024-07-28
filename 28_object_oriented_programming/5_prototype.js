@@ -1,4 +1,4 @@
-// Prototype (Better to call Prototype Object)
+// Prototype
 
 // Research
 // - How javascript add hidden property which is [[Prototype]]. To my object?
@@ -22,8 +22,16 @@
 // - Structure: Every object has a __proto__ property pointing to its prototype.
 // - Process: When a property is accessed on an object, the JavaScript engine first checks the object itself, then its prototype, and so on until the end of the chain or the property is found.
 
-// Prototype Inheritance: When we read a property from object, and it’s missing, JavaScript automatically takes it from the prototype. In programming, this is called “prototypal inheritance”.
+// Prototype Inheritance
+// - When we read a property from object, and it’s missing, JavaScript automatically takes it from the prototype.In programming, this is called “prototypal inheritance”.
 
+// Why
+// - The prototype system allows JavaScript to implement inheritance and to share properties and methods across instances.
+// - This makes code reuse and object - oriented programming possible in JavaScript.
+
+// How
+
+// How prototype chain works in general?
 // parentObject is prototype.
 const parentObject = {
   name: "Parent",
@@ -38,14 +46,14 @@ const childObject = {
 console.log(childObject.name);
 console.log(childObject.__proto__.name);
 
-// Why
-// - The prototype system allows JavaScript to implement inheritance and to share properties and methods across instances.
-// - This makes code reuse and object - oriented programming possible in JavaScript.
+// How prototype chain works in object?
+// Object <- [Prototype + Inheriting] <- Parent Object <- [Prototype + Inheriting] <- Grand Parent Object
 
-// How
+// How prototype chain works in array?
+// Array <- [Prototype + Inheriting] <- Object <- .length == array.prototype.length === array.length
 
-// Function Are Object
-// - Yes, function are object.
+// How prototype chain works in function?
+// - Yes, function is object.
 // - Yes, function is function.
 // - In JavaScript everything is object.
 
@@ -56,7 +64,7 @@ function ConstructorFunction(parameter) {
 // Normally calling function
 console.log(ConstructorFunction("argument"));
 
-// Adding property into function like an object
+// Adding property into function like we do in object
 ConstructorFunction.power = 2;
 console.log(ConstructorFunction.power);
 
@@ -64,29 +72,4 @@ console.log(ConstructorFunction.power);
 console.log(ConstructorFunction.prototype);
 
 // Note
-// - Every object in JavaScript inherit properties and method of parent object. It's continues process.
-// Object <- (Prototype + Inheriting) <- Parent Object <- (Prototype + Inheriting) <- Grand Parent Object
-
-// Array <- (Prototype + Inheriting) <- Object <- .length
-// array.prototype.length === array.length
-
-// - This why function can behave like an object.
-// Function <- (Prototype + Inheriting) <- Object
-
 // - If you wondering what will you get at the end of this prototype inheritance chain is `null`.
-
-// Constructor Function + Prototype + `new` keyword
-function ConstructorFunction(parameter) {
-  this.parameter = parameter;
-}
-
-ConstructorFunction.prototype.method = function () {
-  this.parameter++;
-};
-
-ConstructorFunction.prototype.printMethod = function () {
-  console.log(this.parameter);
-};
-
-const instanceObject1 = new ConstructorFunction("argument");
-const instanceObject2 = new ConstructorFunction("argument");

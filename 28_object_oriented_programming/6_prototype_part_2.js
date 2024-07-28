@@ -17,7 +17,7 @@ console.log(childObject.method());
 // Accessing custom method from origin object because of prototype
 console.log(childObject.customMethod());
 
-// Because of the custom method is in origin object. You can access it form where ever
+// Because of the custom method is in origin object. You can access it form any where.
 const array = [1, 2, 3, 4, 5];
 console.log(array.customMethod());
 

@@ -1,6 +1,6 @@
 // First Class Function
 
-// Q. What is First Class Function?
+// What
 // - In JavaScript, functions are considered "first-class" citizens, It means they can be treated just like any other value.
 
 // Functions can be assigned to variables

@@ -2,7 +2,6 @@
 
 // https://youtu.be/bx9xYPt2tdc
 
-// Function 1
 function firstFunction(callback) {
   setTimeout(function () {
     console.log("First function executed.");
@@ -10,20 +9,18 @@ function firstFunction(callback) {
   }, 1000);
 }
 
-// Function 2
 function secondFunction(callback) {
   setTimeout(function () {
     console.log("Second function executed.");
     callback();
-  }, 1000);
+  }, 3000);
 }
 
-// Function 3
 function thirdFunction(callback) {
   setTimeout(function () {
     console.log("Third function executed.");
     callback();
-  }, 1000);
+  }, 2000);
 }
 
 // Callback Hell

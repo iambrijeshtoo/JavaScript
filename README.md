@@ -155,39 +155,32 @@
     11. Abstraction
     12. Polymorphism
 
-2.  Asynchronous JavaScript
+1.  JavaScript Under the Hood
+
+    1.  Compiler
+    2.  Interpreter
+    3.  Compile Time
+    4.  Runtime
+
+1.  JavaScript Execution Context
+
+    1.  Context
+    2.  Execution Context
+        1.  Global Execution Context
+            1.  Memory Creation Phase
+            2.  Execution Phase
+        2.  Function Execution Context
+
+1.  Asynchronous JavaScript
     1.  Asynchronous Operations
     2.  setTimeout & setInterval
     3.  Call back
         1.  Call back function
         2.  Call back hell
     4.  Promise
+    5.  Fetch
 
 <!-- OOP -->
 
 1. Literal Object
 2. Constructor Function
-
-# Monospace Font
-
-1. Fira Mono Light
-2. JetBrains Mono ExtraLight
-3. Commit Mono
-4. Fira Mono
-5. Monaspace
-6. MonoLisa
-7. Source Code Pro
-8. Cascadia Code
-9. JetBrains Mono
-10. Maple Mono
-
-# Theme - Pitch Dark Background
-
-1. Bluloco
-2. Dracula
-3. Github dark
-4. One Dark Mono
-5. Ayu - Dark
-6. Noctis - Obscuro
-7. Monokai Night
-8. Night Owl

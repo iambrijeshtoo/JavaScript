@@ -7,9 +7,9 @@ What
 
 Why
 
-- **Improved Performance:** Prevents the program from freezing while waiting for long-running tasks.
-- **Better User Experience:** Maintains responsiveness and allows users to interact with the application while background tasks are in progress.
-- **Efficient Resource Utilization:** Enables handling multiple tasks concurrently.
+- Improved Performance: Prevents the program from freezing while waiting for long-running tasks.
+- Better User Experience: Maintains responsiveness and allows users to interact with the application while background tasks are in progress.
+- Efficient Resource Utilization: Enables handling multiple tasks concurrently.
 
 How
 
@@ -22,7 +22,7 @@ Example
 - The code can continue executing other tasks while waiting for the data to be retrieved.
 - Once the data is available, a callback function is called to process it.
 
-Important Note
+Note
 
 - Asynchronous programming can introduce complexities like callbacks, promises, or async/await. Careful handling is required to manage asynchronous code effectively.
 

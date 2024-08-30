@@ -36,5 +36,5 @@ function mySecond() {
   console.log("Goodbye");
 }
 
-mySecond();
+mySecond(); 
 myFirst();

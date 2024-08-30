@@ -126,6 +126,7 @@
    6. String Method
 
 8. Array
+
    1. Array Are Object
    2. Array Operation
    3. Array Destructure
@@ -133,52 +134,57 @@
    5. Array's method
       1. map()
 
-- Objects
-  - Object Iteration
-  - Object Computed Properties
-  - Object Destructure
-  - Object Cloning
-  - Optional Chaining
+9. Objects
 
-1.  Object Oriented Programming
+   1. Object Iteration
+   2. Object Computed Properties
+   3. Object Destructure
+   4. Object Cloning
+   5. Optional Chaining
 
-    1.  Object
-    2.  Constructor Function
-    3.  `new` keyword
-    4.  What Is Oops?
-    5.  Class
-    6.  Constructor
-    7.  Class Method
-    8.  Factory Function
-    9.  Inheritance
+10. Object Oriented Programming
+
+    1. Object
+    2. Constructor Function
+    3. `new` keyword
+    4. What Is Oops?
+    5. Class
+    6. Constructor
+    7. Class Method
+    8. Factory Function
+    9. Inheritance
     10. Encapsulation
     11. Abstraction
     12. Polymorphism
 
-1.  JavaScript Under the Hood
+11. JavaScript Under the Hood
 
-    1.  Compiler
-    2.  Interpreter
-    3.  Compile Time
-    4.  Runtime
+    1. Compiler
+    2. Interpreter
+    3. Compile Time
+    4. Runtime
+    5. JavaScript Engine
+    6. JavaScript Environment
+    7. Just in time compilation (JIT)
 
-1.  JavaScript Execution Context
+12. JavaScript Execution Context
 
-    1.  Context
-    2.  Execution Context
-        1.  Global Execution Context
-            1.  Memory Creation Phase
-            2.  Execution Phase
-        2.  Function Execution Context
+    1. Context
+    2. Execution Context
+       1. Global Execution Context
+          1. Memory Creation Phase
+          2. Execution Phase
+       2. Function Execution Context
 
-1.  Asynchronous JavaScript
-    1.  Asynchronous Operations
-    2.  setTimeout & setInterval
-    3.  Call back
-        1.  Call back function
-        2.  Call back hell
-    4.  Promise
-    5.  Fetch
+13. Asynchronous JavaScript
+    1. Asynchronous Operations
+    2. setTimeout & setInterval
+    3. Async and Await
+    4. Call back
+       1. Call back function
+       2. Call back hell
+    5. Promise
+    6. Fetch
 
 <!-- OOP -->
 

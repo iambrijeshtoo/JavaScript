@@ -10,6 +10,13 @@ Why
 - Optimizes performance: Employs techniques like Just-In-Time (JIT) compilation to improve execution speed.
 - Manages memory: Handles memory allocation and garbage collection.
 
+How
+
+- Parsing: Breaks down JavaScript code into smaller parts (tokens).
+- Abstract Syntax Tree (AST): Creates a tree-like structure representing the code's structure.
+- Interpretation or Compilation: Executes code directly or compiles it into machine code.
+- Execution: Runs the compiled code or interpreted instructions.
+
 Example
 
 - V8: Used in Google Chrome and Node.js.

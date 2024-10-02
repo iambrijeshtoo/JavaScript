@@ -1,6 +1,6 @@
 // Arrow Function
 
-// SYNTAX
+// Syntax
 // const variableName = () => {
 //    code...
 // return

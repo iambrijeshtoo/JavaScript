@@ -27,3 +27,8 @@ variable3 = variable4 = variable5 = 1;
 let variable6 = 1,
   variable7 = 2,
   variable8 = 3;
+
+// Note
+// - The fact that whenever we declare a variable and assign a value to it, it’s not the variable that holds the value but rather the variable just holds an address in the memory where the initialized value is stored. Further explaining, take for example:
+let age = 21;
+// - when we use age, it gets replaced with 21, but that does not mean that age contains 21, rather what it means is that the variable age contains the address of the memory location where 21 is stored.

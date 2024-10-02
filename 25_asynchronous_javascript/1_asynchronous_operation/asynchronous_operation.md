@@ -1,5 +1,7 @@
 # Asynchronous Operation
 
+Video: https://youtu.be/zgt5oTD3rRc?si=C_v1lcoCLHwkmZD0
+
 What
 
 - An asynchronous operation is a process that starts but doesn't necessarily finish immediately.

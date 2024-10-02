@@ -31,6 +31,15 @@ const students = [
 
 console.table(students);
 
+// Example: 3
+const object = {
+  key1: "value1",
+  key2: "value2",
+  key3: "value3",
+};
+
+console.table(object);
+
 // Note
 // - console.table() is a helpful debugging tool, but it should not be used for logging or displaying data in a production environment.
 

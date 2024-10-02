@@ -120,6 +120,12 @@ Function == Method == Operations == Behaviors
 
 - Functions used to create new objects.
 
+# What is Prase?
+- Parsing is the process of taking a JSON string (which is essentially a text format) and converting it into a data structure that your programming language can use (e.g., an object or dictionary).
+
+# What is Serializes? 
+- In computing, serialization is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later.
+
 # Types of Naming Convention
 
 1. Camel Case: helloWorld

@@ -28,13 +28,15 @@
 
 // // promise1;
 
-function myFirst() {
-  console.log("Hello");
-}
+const object = {
+  key1: "value1",
+  key2: "value2",
+  key3: "value3",
+  nestedObject: {
+    key4: "value4",
+    key5: "value5",
+    key6: "value6",
+  },
+};
 
-function mySecond() {
-  console.log("Goodbye");
-}
-
-mySecond(); 
-myFirst();
+console.table(object);

@@ -1,8 +1,10 @@
 // Call back function
 
+// Video
+// https://youtu.be/NOlOw03qBfw?si=VFjF1eUuPxogVf1a
 // https://youtu.be/bx9xYPt2tdc
 
-function firstFunction(callback) {
+https: function firstFunction(callback) {
   setTimeout(function () {
     console.log("First function executed.");
     callback();

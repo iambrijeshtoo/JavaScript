@@ -1,7 +1,7 @@
-**Runtime**
+Runtime
 
-### What
-Runtime refers to the period during which a computer program is executing. It's the time when the code is being processed and instructions are carried out.
+What
+- Runtime refers to the period during which a computer program is executing. It's the time when the code is being processed and instructions are carried out.
 
 ### Why
 Understanding runtime is crucial for:

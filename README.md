@@ -166,6 +166,7 @@
     5. JavaScript Engine
     6. JavaScript Environment
     7. Just in time compilation (JIT)
+    8. Call Stack
 
 12. JavaScript Execution Context
 
@@ -179,11 +180,12 @@
 13. Asynchronous JavaScript
     1. Asynchronous Operations
     2. setTimeout & setInterval
-    3. Async and Await
-    4. Call back
+    3. Call back
        1. Call back function
        2. Call back hell
+    4. Async and Await
     5. Promise
+       1. Executor Function
     6. Fetch
 
 <!-- OOP -->

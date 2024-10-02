@@ -14,22 +14,64 @@
 // - Pending: Initial state, neither fulfilled nor rejected.
 // - Fulfilled: The operation completed successfully.
 // - Rejected: The operation failed.
-// - You create a Promise using the Promise constructor, which takes an executor function as an argument. The executor function receives two functions: resolve and reject. You call resolve when the operation is successful, passing the result as an argument. You call reject when the operation fails, passing the error as an argument.
+// - You create a Promise using the Promise constructor, which takes an executor function as an argument.
+// - The executor function receives two functions: resolve and reject.
+// - You call resolve when the operation is successful, passing the result as an argument.You call reject when the operation fails, passing the error as an argument.
 
 // Syntax
-// const promise = new Promise((resolve, reject) => {
-//   // Asynchronous operation here
-//   if (/* condition for success */) {
-//     resolve(value);
-//   } else {
-//     reject(error);
-//   }
-// });
 
-// Example: 1
+// Basic Promise Creation
+const myPromise = new Promise((resolve, reject) => {
+  // Asynchronous operation
+  // If successful:
+  resolve(result);
+  // If unsuccessful:
+  reject(error);
+});
+
+// Chaining Promise
+myPromise
+  .then((result) => {
+    // Handle successful result
+    return anotherPromise; // Return another Promise for chaining
+  })
+  .then((result2) => {
+    // Handle result from the second Promise
+  })
+  .catch((error) => {
+    // Handle errors from any of the Promises
+  });
+
+// Error Handling
+myPromise
+  .then((result) => {
+    // Handle successful result
+  })
+  .catch((error) => {
+    // Handle errors
+  });
+
+// Promise.all()
+Promise.all([promise1, promise2, promise3])
+  .then((results) => {
+    // Handle successful results
+  })
+  .catch((error) => {
+    // Handle errors from all Promises
+  });
+
+// Promise.race()
+Promise.race([promise1, promise2, promise3])
+  .then((result) => {
+    // Handle the result from the first Promise that resolves
+  })
+  .catch((error) => {
+    // Handle errors
+  });
+
+// Example
 const promise1 = new Promise(function (resolve, reject) {
-  // Do async task
-  // Database call, cryptography, network
+  // Do async task like a database call, cryptography & network etc.
 
   setTimeout(function () {
     console.log("Async task is complete");

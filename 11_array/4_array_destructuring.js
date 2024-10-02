@@ -1,7 +1,7 @@
 // Array Destructure
 
 // What
-// - Array destructuring is a feature in JavaScript that allows you to extract values from an array and assign them to individual variables.
+// - Array destructuring is a feature in JavaScript that allows you to extract elements from an array and assign them to individual variables.
 
 const myArray = [1, 2, 3, 4, 5];
 

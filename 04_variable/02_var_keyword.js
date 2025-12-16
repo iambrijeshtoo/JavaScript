@@ -6,6 +6,12 @@
 // -> It can be redeclare in same scope.
 // -> It can be redeclare in different scope.
 
+// Note
+// Variable declared with var keyword:
+// - If it has global scope, it can be accessed inside anywhere.
+// - If it has function scope, it can be accessed only inside the function where it is declared.
+// - If it has block scope (like if, for, while), it can still be accessed outside the block, Globally and also inside functions.
+
 // Syntax:
 // var variableName = value;
 
@@ -23,9 +29,3 @@ variable = "value2";
 // - It will take latest updated value.
 var variable = "value1";
 var variable = "value2";
-
-// Q. How scope works for `var` keyword?
-// Function Scope
-// -> Variables declared with var have function scope.
-// -> This means they are only accessible within the function where they are declared.
-// -> If declared outside any function, they have global scope.
